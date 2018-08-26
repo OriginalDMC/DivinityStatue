@@ -1,16 +1,16 @@
 @font-face {
-   font-family: 'airstrikecond';
-   src: url('airstrikecond/font.ttf');
+   font-family: 'font';
+   src: url('font/font.ttf');
 }
 @font-face {
-   font-family: 'ostrich-regular';
-   src: url('ostrich-regular/font.ttf');
+   font-family: 'Westmeath';
+   src: url('Westmeath/font.ttf');
 }
 @font-face {
    font-family: 'BankGothic Bold';
    src: url('BankGothic Bold/font.ttf');
 }
 @font-face {
-   font-family: 'font';
-   src: url('font/font.ttf');
+   font-family: 'ostrich-regular';
+   src: url('ostrich-regular/font.ttf');
 }
