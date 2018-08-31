@@ -1,16 +1,16 @@
 @font-face {
+   font-family: 'Wews';
+   src: url('Wews/font.ttf');
+}
+@font-face {
+   font-family: 'fontss';
+   src: url('fontss/font.ttf');
+}
+@font-face {
+   font-family: 'fontv';
+   src: url('fontv/font.ttf');
+}
+@font-face {
    font-family: 'font';
    src: url('font/font.ttf');
-}
-@font-face {
-   font-family: 'Westmeath';
-   src: url('Westmeath/font.ttf');
-}
-@font-face {
-   font-family: 'BankGothic Bold';
-   src: url('BankGothic Bold/font.ttf');
-}
-@font-face {
-   font-family: 'ostrich-regular';
-   src: url('ostrich-regular/font.ttf');
 }
