@@ -1,6 +1,6 @@
 @font-face {
-   font-family: 'Wews';
-   src: url('Wews/font.ttf');
+   font-family: 'MAEL';
+   src: url('MAEL/font.TTF');
 }
 @font-face {
    font-family: 'fontss';
@@ -9,6 +9,10 @@
 @font-face {
    font-family: 'fontv';
    src: url('fontv/font.ttf');
+}
+@font-face {
+   font-family: 'airstrike';
+   src: url('airstrike/font.ttf');
 }
 @font-face {
    font-family: 'font';
