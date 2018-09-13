@@ -1,0 +1,43 @@
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="color: white; font-size: x-large;"><a href="https://originaldmc.github.io/DivinityStatue/">Back To Home</a></span></div>
+
+<link rel="stylesheet" href="assets/memorygame/DMC_M.css" />
+<section id="gameStats">
+   <p id="timer">Time: <span class="gameScore"></span></p>
+   <p id="reset"><a class="gameReset" href="">Reset</a></p>
+</section> 
+<section id="game">
+
+     <section id="gameIntro">
+      <p><a id="gamePlay" class="button"  href="">Play</a></p>
+     </section>
+  
+     <section id="gameComplete">
+       <p id="top">Your time taken was <span class="gameScore"></span>.</p>
+       <p><a class="gameReset button" href="">Play again</a></p>
+     </section>
+     
+     <div id="cards">
+      <div class="card">
+       <div class="face front"></div>
+       <div class="face back"></div>
+      </div> <!-- .card -->
+     </div> <!-- #cards -->
+</section> <!-- #game -->
+
+<script src="assets/memorygame/jquery-1.7.min.js"></script>
+<script src="assets/memorygame/DMC_M.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1332079-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
