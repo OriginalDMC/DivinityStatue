@@ -103,11 +103,11 @@ ul {
 #sliding-advanced .status {
     float: left;
     width: 40%;
-    height: 50px;
+    height: 40px;
 }
 #sliding-advanced .size {
     float: right;
-    height: 50px;
+    height: 40px;
     text-align: right;
 }
 #sliding-advanced .src input {
