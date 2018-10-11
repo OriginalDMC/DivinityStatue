@@ -96,7 +96,7 @@
 			}
 		}else{
 			//Sets up enable/accept button if required
-			var message = options.message.replace('{http://originaldmc.github.io/DivinityStatue/PrivacyPolicy.html}',options.policyURL);
+			var message = options.message.replace('{policy_url}',options.policyURL);
 			
 			if(options.acceptButton){
 				var acceptButton = '<a href="" class="cb-enable">'+options.acceptText+'</a>';
