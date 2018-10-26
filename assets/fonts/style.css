@@ -1,20 +1,20 @@
 @font-face {
-   font-family: 'MAEL';
-   src: url('MAEL/font.TTF');
+   font-family: 'A';
+   src: url('A/font.ttf');
 }
 @font-face {
-   font-family: 'fontss';
-   src: url('fontss/font.ttf');
-}
-@font-face {
-   font-family: 'fontv';
-   src: url('fontv/font.ttf');
-}
-@font-face {
-   font-family: 'airstrike';
-   src: url('airstrike/font.ttf');
+   font-family: 'BG';
+   src: url('BG/font.ttf');
 }
 @font-face {
    font-family: 'font';
    src: url('font/font.ttf');
+}
+@font-face {
+   font-family: 'fontr';
+   src: url('fontr/font.TTF');
+}
+@font-face {
+   font-family: 'q';
+   src: url('q/font.ttf');
 }
