@@ -1,20 +1,16 @@
 @font-face {
-   font-family: 'A';
-   src: url('A/font.ttf');
-}
-@font-face {
-   font-family: 'BG';
-   src: url('BG/font.ttf');
-}
-@font-face {
    font-family: 'font';
    src: url('font/font.ttf');
 }
 @font-face {
-   font-family: 'fontr';
-   src: url('fontr/font.TTF');
+   font-family: 'BlankGothic Bold';
+   src: url('BlankGothic Bold/font.ttf');
 }
 @font-face {
-   font-family: 'q';
-   src: url('q/font.ttf');
+   font-family: 'Airstrike';
+   src: url('Airstrike/font.ttf');
+}
+@font-face {
+   font-family: 'Ostrich Sans Medium';
+   src: url('Ostrich Sans Medium/font.ttf');
 }
