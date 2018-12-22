@@ -1284,6 +1284,11 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .card-wrapper {
+    flex: auto!important;
+  }
+}
 .cid-rca3VPvysS .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -1728,6 +1733,9 @@ body {
   .cid-rcaa5AuJlb .mbr-figure img {
     width: 100% !important;
   }
+}
+.cid-rcabCSPoyu {
+  background-image: url("../../../assets/images/n-h.gif");
 }
 .cid-rcac7ly7M0 {
   padding-top: 90px;
