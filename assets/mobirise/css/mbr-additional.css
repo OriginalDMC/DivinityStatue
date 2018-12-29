@@ -1953,8 +1953,8 @@ body {
   text-align: right;
 }
 .cid-rcai7X1Vrx {
-  padding-top: 90px;
-  padding-bottom: 105px;
+  padding-top: 60px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/dante-5.gif");
 }
 .cid-rcai7X1Vrx .mbr-section-subtitle {
@@ -2794,6 +2794,51 @@ body {
   transition: box-shadow 0.3s;
 }
 .cid-rcau2TMuSk .card-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-rdzCP02rOM {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/duakzqgwkaetwsy-1200x723.jpg");
+}
+.cid-rdzCP02rOM .card-box {
+  padding: 0 2rem;
+}
+.cid-rdzCP02rOM .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rdzCP02rOM .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rdzCP02rOM h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rdzCP02rOM p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rdzCP02rOM .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-rdzCP02rOM .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #000000;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rdzCP02rOM .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rdzCP02rOM .card-title {
   text-align: center;
   color: #ffffff;
 }
