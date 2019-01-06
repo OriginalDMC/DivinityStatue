@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-
 body {
   font-style: normal;
   line-height: 1.5;
@@ -16,7 +14,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rage';
+  font-family: 'Zenzai Itachi';
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -37,18 +35,18 @@ body {
   font-size: 2.24rem;
 }
 .display-5 {
-  font-family: 'airstrikecond';
-  font-size: 2rem;
+  font-family: 'Mostwasted';
+  font-size: 2.4rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 3.84rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'VertigoFLF';
+  font-size: 1.6rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 2.56rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -72,9 +70,9 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -637,14 +635,14 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'VertigoFLF';
+  font-size: 1.6rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 2.56rem;
 }
 .form-control,
 .form-control:focus {
@@ -2450,7 +2448,7 @@ body {
 .cid-rcamnuWorA {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/6izp2yi-3-1489x1224.jpg");
+  background-image: url("../../../assets/images/devil-may-cry-devil-may-cry-1-39929932-1024-673-1024x673.png");
 }
 .cid-rcamnuWorA .card-box {
   padding: 0 2rem;
@@ -2495,7 +2493,7 @@ body {
 .cid-rcankUmRXU {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/18971-1280x720.jpg");
+  background-image: url("../../../assets/images/ss-img01-1398x786.jpg");
 }
 .cid-rcankUmRXU .card-box {
   padding: 0 2rem;
@@ -2540,7 +2538,7 @@ body {
 .cid-rcanWPMiuN {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/46adf62b9074e6f98581da65cf067031-700-1244x700.jpg");
+  background-image: url("../../../assets/images/devil-may-cry-5-dante-1000x563.png");
 }
 .cid-rcanWPMiuN H2 {
   text-align: center;
@@ -2797,51 +2795,6 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.cid-rdzCP02rOM {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/duakzqgwkaetwsy-1200x723.jpg");
-}
-.cid-rdzCP02rOM .card-box {
-  padding: 0 2rem;
-}
-.cid-rdzCP02rOM .mbr-section-btn {
-  padding-top: 1rem;
-}
-.cid-rdzCP02rOM .mbr-section-btn a {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.cid-rdzCP02rOM h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 2rem;
-}
-.cid-rdzCP02rOM p {
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 1.5rem;
-}
-.cid-rdzCP02rOM .mbr-text {
-  color: #ffffff;
-  text-align: center;
-}
-.cid-rdzCP02rOM .card-wrapper {
-  height: 100%;
-  padding-bottom: 2rem;
-  background: #000000;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-rdzCP02rOM .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-.cid-rdzCP02rOM .card-title {
-  text-align: center;
-  color: #ffffff;
-}
 .cid-rcavygDmzB {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2884,6 +2837,51 @@ body {
   transition: box-shadow 0.3s;
 }
 .cid-rcavygDmzB .card-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-rdzCP02rOM {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/duakzqgwkaetwsy-1200x723.jpg");
+}
+.cid-rdzCP02rOM .card-box {
+  padding: 0 2rem;
+}
+.cid-rdzCP02rOM .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rdzCP02rOM .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rdzCP02rOM h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rdzCP02rOM p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rdzCP02rOM .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-rdzCP02rOM .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #000000;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rdzCP02rOM .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rdzCP02rOM .card-title {
   text-align: center;
   color: #ffffff;
 }
