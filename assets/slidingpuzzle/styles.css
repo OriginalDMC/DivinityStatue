@@ -17,7 +17,7 @@ legend {
     font-weight: bold;
     padding: 3px 12px;
     display: block;
-    background-color: #e4e4e4;
+    background-color: #ddd;
     border-radius: 6px;
 }
 ul {
@@ -29,12 +29,12 @@ ul {
 /* Puzzle widgets */
 
 .sliding-puzzle {
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     border-spacing: 0;
 }
 .sliding-puzzle td {
     border-collapse: collapse;
-    border: 2px outset white;
+    border: 2px outset black;
     cursor: pointer;
     padding: 0;
 }
@@ -69,13 +69,13 @@ ul {
     cursor: pointer;
 }
 .word-search-puzzle .puzzle-found {
-    background-color: #eee;
+    background-color: #000000;
 }
 .word-search-puzzle .puzzle-selected {
-    background-color: #f5f5f5;
+    background-color: #000000;
 }
 .word-search-puzzle .puzzle-message span {
-    background-color: #ffffcc;
+    background-color: #000000;
     color: red;
     font-weight: bold;
     border-radius: 15px;

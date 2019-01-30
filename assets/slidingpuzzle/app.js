@@ -34,7 +34,7 @@
      */
     app.controller('slidingAdvancedCtrl', function($scope) {
         $scope.puzzles = [
-            { src: 'assets/slidingpuzzle/vergil.png', title: 'Devil May Cry  Sliding puzzle', rows: 4, cols: 4 },
+            { src: 'assets/slidingpuzzle/Nico.jpg', title: 'Devil May Cry  Sliding puzzle', rows: 4, cols: 4 },
             
         ];
     });
