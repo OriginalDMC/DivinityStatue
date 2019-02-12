@@ -1982,10 +1982,26 @@ body {
   padding-bottom: 60px;
   background-image: url("../../../assets/images/dante-5.gif");
 }
-.cid-rgcfSIC5Lp {
+.cid-rhOCk3ieVK {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dm4n-965x720.jpg");
+  background-image: url("../../../assets/images/-dmc-deadly-fortune-1-cover-image-horz-1-756x522.jpg");
+}
+.cid-rhOCk3ieVK .mbr-figure {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-rhOCk3ieVK .mbr-figure img {
+  height: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .cid-rhOCk3ieVK .mbr-figure img {
+    width: 100% !important;
+  }
 }
 .cid-rgchzZ6dz8 {
   padding-top: 90px;
