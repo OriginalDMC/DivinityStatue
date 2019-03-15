@@ -417,11 +417,9 @@ nav .mbr-section-btn {
     display: -webkit-flex !important; } }
 @media (max-width: 767px) {
   .menu .navbar-collapse {
-    overflow-y: auto;
     max-height: 80vh; }
   .menu .dropdown-menu {
-    max-height: 60vh;
-    overflow-y: auto; } }
+    max-height: 60vh; } }
 
 .navbar {
   display: -webkit-flex;
@@ -468,6 +466,25 @@ nav .mbr-section-btn {
 
 .media {
   display: -webkit-flex; }
+
+.jq-selectbox__select {
+  padding: 1.07em .5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.jq-selectbox__dropdown {
+  position: absolute;
+  top: 100% !important;
+  left: 0 !important;
+  width: 100% !important; }
+
+.jq-selectbox__trigger-arrow {
+  transform: translateY(-50%); }
+
+.jq-selectbox li {
+  padding: 1.07em .5em; }
 
 /*# sourceMappingURL=style.css.map */
 .engine {
