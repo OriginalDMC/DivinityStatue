@@ -3,16 +3,16 @@
    src: url('Zenzai Itacha/font.ttf');
 }
 @font-face {
-   font-family: 'BankGothic Bold';
-   src: url('BankGothic Bold/font.ttf');
+   font-family: 'tarrget';
+   src: url('tarrget/font.ttf');
 }
 @font-face {
    font-family: 'andromeda';
    src: url('andromeda/font.ttf');
 }
 @font-face {
-   font-family: 'VertigoFLF';
-   src: url('VertigoFLF/font.ttf');
+   font-family: 'BankGothic Bold';
+   src: url('BankGothic Bold/font.ttf');
 }
 @font-face {
    font-family: 'Ostrich Sans Medium';
