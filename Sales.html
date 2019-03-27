@@ -96,40 +96,69 @@
         </div>
     </div>
 </section>
-<script type="text/javascript" src="assets/Sales/amcharts.js"></script>
-		<script type="text/javascript" src="assets/Sales/pie.js"></script>
-		<script type="text/javascript" src="assets/Sales/black.js"></script>
+
+	
+		<script type="text/javascript" src="assets/sales/amcharts.js"></script>
+		<script type="text/javascript" src="assets/sales/serial.js"></script>
+		<script type="text/javascript" src="assets/sales/chalk.js"></script>
 		
 
-		
+		<!-- amCharts javascript code -->
 		<script type="text/javascript">
 			AmCharts.makeChart("chartdiv",
 				{
-					"type": "pie",
-					"angle": 12,
-					"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
-					"depth3D": 15,
-					"baseColor": "#31D6D6",
-					"titleField": "category",
-					"valueField": "column-1",
-					"fontFamily": "Tahoma",
-					"fontSize": 14,
-					"handDrawn": true,
-					"theme": "black",
-					"allLabels": [],
-					"balloon": {},
-					"legend": {
-						"enabled": true,
-						"align": "center",
-						"markerType": "circle"
+					"type": "serial",
+					"categoryField": "category",
+					"rotate": true,
+					"autoMarginOffset": 40,
+					"marginRight": 60,
+					"marginTop": 60,
+					"startDuration": 1,
+					"fontFamily": "Trebuchet MS",
+					"fontSize": 13,
+					"theme": "chalk",
+					"categoryAxis": {
+						"gridPosition": "start",
+						"position": "right",
+						"title": "All sales are in million units"
 					},
-					"titles": [
+					"trendLines": [],
+					"graphs": [
 						{
-							"id": "Title-3",
-							"tabIndex": 0,
-							"text": "Devil May Cry Sales In Million Units"
+							"balloonText": "[[category]]:[[value]]",
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"labelText": "",
+							"title": "graph 1",
+							"type": "column",
+							"valueField": "column-1"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"bullet": "round",
+							"id": "AmGraph-2",
+							"labelText": "",
+							"lineThickness": 2,
+							"title": "graph 2",
+							"valueField": "column-2"
+						},
+						{
+							"balloonText": "[[value]] ",
+							"id": "AmGraph-3",
+							"title": "graph 3",
+							"valueField": "column-2"
 						}
 					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": ""
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"titles": [],
 					"dataProvider": [
 						{
 							"category": "Devil May Cry",
@@ -140,12 +169,8 @@
 							"column-1": "1.7"
 						},
 						{
-							"category": "Devil May Cry 3",
-							"column-1": "1.3"
-						},
-						{
-							"category": "Devil May Cry 3 : Special Edition",
-							"column-1": "1.0"
+							"category": "Devil Ma y Cry 3",
+							"column-1": "2.3"
 						},
 						{
 							"category": "Devil May Cry 4",
@@ -153,15 +178,16 @@
 						},
 						{
 							"category": "Devil May Cry : HD Collection",
-							"column-1": "1.1"
+							"column-1": "1.2"
 						}
 					]
 				}
 			);
 		</script>
-	</head>
-	<body>
-		<div id="chartdiv" style="width: 100%; height: 477px; background-color: #222222;" ></div>
+	
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #282828;" ></div>
+	
+
 <section once="" class="cid-rlPWqWgF6J" id="footer7-16">
 
     
@@ -224,5 +250,5 @@
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
-  </body>
+</body>
 </html>
