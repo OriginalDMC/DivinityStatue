@@ -1864,6 +1864,9 @@ body {
   color: #ffffff;
   text-align: left;
 }
+.cid-rlQ81yUDk8 .mbr-section-subtitle DIV {
+  text-align: right;
+}
 .cid-rlPWqWgF6J {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1989,6 +1992,51 @@ body {
   transition: box-shadow 0.3s;
 }
 .cid-rlQbp6BICF .card-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-rqDA45pppe {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/lady-devil-may-cry-devil-may-cry-5-capcom-1575231-1600x900.jpg");
+}
+.cid-rqDA45pppe .card-box {
+  padding: 0 2rem;
+}
+.cid-rqDA45pppe .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rqDA45pppe .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rqDA45pppe h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rqDA45pppe p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rqDA45pppe .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-rqDA45pppe .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #000000;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rqDA45pppe .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rqDA45pppe .card-title {
   text-align: center;
   color: #ffffff;
 }
@@ -2808,6 +2856,51 @@ body {
   padding-bottom: 60px;
   background-image: url("../../../assets/images/18970-1-1279x440.jpg");
 }
+.cid-rqFj5IR1r6 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/06d91e0ee61470fd6e952cc7f8792c1ab040c866-1920x854.jpg");
+}
+.cid-rqFj5IR1r6 .card-box {
+  padding: 0 2rem;
+}
+.cid-rqFj5IR1r6 .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rqFj5IR1r6 .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rqFj5IR1r6 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rqFj5IR1r6 p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rqFj5IR1r6 .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-rqFj5IR1r6 .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #000000;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rqFj5IR1r6 .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rqFj5IR1r6 .card-title {
+  text-align: center;
+  color: #ffffff;
+}
 .cid-rlQqXhwHqj {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2851,27 +2944,6 @@ body {
 .cid-rlQqXhwHqj .card-box .mbr-section-btn a {
   margin-top: 1rem;
   margin-bottom: 0;
-}
-.cid-rlQs7iBo4m {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/54515761-1152267411613621-4281884301630373888-o-1-1920x944.jpg");
-}
-.cid-rlQs7iBo4m .mbr-figure {
-  margin: 0 auto;
-  width: 100%;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-rlQs7iBo4m .mbr-figure img {
-  height: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .cid-rlQs7iBo4m .mbr-figure img {
-    width: 100% !important;
-  }
 }
 .cid-rlQt96PMG2 {
   padding-top: 90px;
