@@ -17,9 +17,10 @@
         var $this = $(this);
         var $prev = $this.prev();
         var $win = $(window);
+        var isIE = !!document.documentMode;
 
         function initReveal() {
-            if ($this.outerHeight() <= $win.outerHeight()) {
+            if (!isIE && $this.outerHeight() <= $win.outerHeight()) {
                 $this.css({
                     'z-index': -999,
                     position: 'fixed',
@@ -573,6 +574,25 @@
                     return top;
                 }
 
+                function elCarouselItem(element) {
+                    if (element.parents('.carousel-item').css('display') !== 'none') return false;
+                    var parentEl = element.parents('.carousel-item').parent();
+                    if (parentEl.find('.carousel-item.active .hidden.animated').lenght){
+                        return false;
+                    }
+                    else if (parentEl.attr('data-visible') > 1){
+                        var visibleSlides = parentEl.attr('data-visible');
+                        if (element.parents().is('.cloneditem-' + (visibleSlides - 1)) && element.parents('.cloneditem-' + (visibleSlides - 1)).attr('data-cloned-index') >= visibleSlides){
+                            return true;
+                        }
+                        else{
+                            element.removeClass('animated hidden');
+                            return false;
+                        }
+                    }
+                    else return true;
+                }
+
                 function checkIfInView() {
                     var window_height = window.innerHeight;
                     var window_top_position = document.documentElement.scrollTop || document.body.scrollTop;
@@ -586,8 +606,8 @@
                         var element_bottom_position = (element_top_position + element_height);
 
                         // check to see if this current element is within viewport
-                        if ((element_bottom_position >= window_top_position) &&
-                            (element_top_position <= window_bottom_position) &&
+                        if ((((element_bottom_position >= window_top_position) &&
+                            (element_top_position <= window_bottom_position)) || elCarouselItem($element)) &&
                             ($element.hasClass('hidden'))) {
                             $element.removeClass('hidden').addClass('fadeInUp')
                                 .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -1003,21 +1023,81 @@
     }
     // Form Styler
     if (isBuilder) {
-    	$(document).on('add.cards', function(event) {
-    		if ($(event.target).find('.form-with-styler').length) {
-    			var form = $(event.target).find('.form-with-styler');
-    			$(form).find('select:not("[multiple]")').each(function() {
-    				$(this).styler();
-    			});
-    		}
-    	});
+        $(document).on('add.cards', function (event) {
+            if ($(event.target).find('.form-with-styler').length) {
+
+                var form = $(event.target).find('.form-with-styler');
+
+                $(form).find('select:not("[multiple]")').each(function () {
+                    $(this).styler();
+                });
+                $(form).find('input[type=number]').each(function () {
+                    $(this).styler();
+                    $(this).parent().parent().removeClass('form-control')
+                });
+                // documentation about plugin https://xdsoft.net/jqplugins/datetimepicker/
+                $(form).find('input[type=date]').each(function () {
+                    if($(this).datetimepicker)
+                        $(this).datetimepicker({
+                            format: 'Y-m-d',
+                            timepicker: false
+                        });
+                });
+                $(form).find('input[type=time]').each(function () {
+                    if($(this).datetimepicker)
+                        $(this).datetimepicker({
+                            format: 'H:i',
+                            datepicker: false
+                        });
+                });
+
+            }
+        });
+    } else {
+        function detectmob() {
+            if (navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)
+                || navigator.userAgent.match(/Firefox/i)
+            ) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        $('section .form-with-styler').each(function () {
+            $(this).find('select:not("[multiple]")').each(function () {
+                $(this).styler();
+            });
+            $(this).find('input[type=number]').each(function () {
+                $(this).styler();
+                $(this).parent().parent().removeClass('form-control')
+            });
+            if (!detectmob() && $(this).datetimepicker) {
+                $(this).find('input[type=date]').each(function () {
+                    $(this).datetimepicker({
+                        format: 'Y-m-d',
+                        timepicker: false
+                    });
+                });
+                $(this).find('input[type=time]').each(function () {
+                    $(this).datetimepicker({
+                        format: 'H:i',
+                        datepicker: false
+                    });
+                });
+            }
+        });
     }
-    else {
-    	$('section .form-with-styler').each(function() {
-    		$(this).find('select:not("[multiple]")').each(function() {
-    			$(this).styler();
-    		});
-    	});
-    }
+
+    $(document).on('change', 'input[type="range"]', function(e){
+        $(e.target).parents('.form-group').find('.value')[0].innerHTML = e.target.value;
+    });
 })(jQuery);
-!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.9.5';document.body.insertBefore(a,document.body.childNodes[0])}}();
+!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.10.5';document.body.insertBefore(a,document.body.childNodes[0])}}();
