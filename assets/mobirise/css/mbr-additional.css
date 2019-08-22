@@ -1981,6 +1981,32 @@ body {
   padding-bottom: 60px;
   background-image: url("../../../assets/images/dante.devil.may.cry.full.581320-2000x1250.jpg");
 }
+.cid-rzQABN2PYo {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/dllhost-w1chm4cqk7-1280x855.jpg");
+}
+.cid-rzQABN2PYo .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rzQABN2PYo .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rzQABN2PYo .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rzQABN2PYo .mbr-text {
+    text-align: center;
+  }
+}
 .cid-rlQbp6BICF {
   padding-top: 90px;
   padding-bottom: 90px;
