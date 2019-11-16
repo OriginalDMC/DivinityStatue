@@ -1,20 +1,25 @@
 @font-face {
-   font-family: 'Zenzai Itacha';
-   src: url('Zenzai Itacha/font.ttf');
+   font-family: 'ZenzaiItacha';
+   font-display: swap;
+   src: url('ZenzaiItacha/font.ttf');
 }
 @font-face {
-   font-family: 'Cornerstone';
-   src: url('Cornerstone/font.ttf');
+   font-family: 'big_noodle_titling_oblique';
+   font-display: swap;
+   src: url('big_noodle_titling_oblique/font.ttf');
 }
 @font-face {
-   font-family: 'bankGothicBold';
-   src: url('bankGothicBold/font.ttf');
+   font-family: 'bankGothicbold';
+   font-display: swap;
+   src: url('bankGothicbold/font.ttf');
 }
 @font-face {
-   font-family: 'tarrgetcond';
-   src: url('tarrgetcond/font.ttf');
+   font-family: 'tarrget cond';
+   font-display: swap;
+   src: url('tarrget cond/font.ttf');
 }
 @font-face {
-   font-family: 'OstrichSans Medium';
-   src: url('OstrichSans Medium/font.ttf');
+   font-family: 'Ostrich Sans medium';
+   font-display: swap;
+   src: url('Ostrich Sans medium/font.ttf');
 }

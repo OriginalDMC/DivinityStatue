@@ -1,16 +1,38 @@
-/*
-    The MIT License (MIT)
+/**
+ * jQuery-viewport-checker - v1.8.8 - 2017-09-25
+ * https://github.com/dirkgroenen/jQuery-viewport-checker
+ *
+ * Copyright (c) 2017 Dirk Groenen
+ * Licensed MIT <https://github.com/dirkgroenen/jQuery-viewport-checker/blob/master/LICENSE>
+ */
 
-    Copyright (c) 2014 Dirk Groenen
+!function(a){a.fn.viewportChecker=function(b){var c={classToAdd:"visible",classToRemove:"invisible",classToAddForFullView:"full-visible",removeClassAfterAnimation:!1,offset:100,repeat:!1,invertBottomOffset:!0,callbackFunction:function(a,b){},scrollHorizontal:!1,scrollBox:window};a.extend(c,b);var d=this,e={height:a(c.scrollBox).height(),width:a(c.scrollBox).width()};return this.checkElements=function(){var b,f;c.scrollHorizontal?(b=Math.max(a("html").scrollLeft(),a("body").scrollLeft(),a(window).scrollLeft()),f=b+e.width):(b=Math.max(a("html").scrollTop(),a("body").scrollTop(),a(window).scrollTop()),f=b+e.height),d.each(function(){var d=a(this),g={},h={};if(d.data("vp-add-class")&&(h.classToAdd=d.data("vp-add-class")),d.data("vp-remove-class")&&(h.classToRemove=d.data("vp-remove-class")),d.data("vp-add-class-full-view")&&(h.classToAddForFullView=d.data("vp-add-class-full-view")),d.data("vp-keep-add-class")&&(h.removeClassAfterAnimation=d.data("vp-remove-after-animation")),d.data("vp-offset")&&(h.offset=d.data("vp-offset")),d.data("vp-repeat")&&(h.repeat=d.data("vp-repeat")),d.data("vp-scrollHorizontal")&&(h.scrollHorizontal=d.data("vp-scrollHorizontal")),d.data("vp-invertBottomOffset")&&(h.scrollHorizontal=d.data("vp-invertBottomOffset")),a.extend(g,c),a.extend(g,h),!d.data("vp-animated")||g.repeat){String(g.offset).indexOf("%")>0&&(g.offset=parseInt(g.offset)/100*e.height);var i=g.scrollHorizontal?d.offset().left:d.offset().top,j=g.scrollHorizontal?i+d.width():i+d.height(),k=Math.round(i)+g.offset,l=g.scrollHorizontal?k+d.width():k+d.height();g.invertBottomOffset&&(l-=2*g.offset),k<f&&l>b?(d.removeClass(g.classToRemove),d.addClass(g.classToAdd),g.callbackFunction(d,"add"),j<=f&&i>=b?d.addClass(g.classToAddForFullView):d.removeClass(g.classToAddForFullView),d.data("vp-animated",!0),g.removeClassAfterAnimation&&d.one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend",function(){d.removeClass(g.classToAdd)})):d.hasClass(g.classToAdd)&&g.repeat&&(d.removeClass(g.classToAdd+" "+g.classToAddForFullView),g.callbackFunction(d,"remove"),d.data("vp-animated",!1))}})},("ontouchstart"in window||"onmsgesturechange"in window)&&a(document).bind("touchmove MSPointerMove pointermove",this.checkElements),a(c.scrollBox).bind("load scroll",this.checkElements),a(window).resize(function(b){e={height:a(c.scrollBox).height(),width:a(c.scrollBox).width()},d.checkElements()}),this.checkElements(),this}}(jQuery);
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy of
-    this software and associated documentation files (the "Software"), to deal in
-    the Software without restriction, including without limitation the rights to
-    use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-    the Software, and to permit persons to whom the Software is furnished to do so,
-    subject to the following conditions:
+// Mobirise initialization
+var isBuilder = $('html').hasClass('is-builder');
+if(!isBuilder){
+    $('.counters').each(function(){
+        $(this).viewportChecker({
+            offset:200,
+            callbackFunction: function(elem,action){
+                $('#' + elem.attr('id') + ' .count').each(function() {
+                    var value = $(this).text().trim();
+                    var counter = (value.length - (value.indexOf(".") + 1)) > 2 ? value.replace(/\./ig, "") : Math.floor(value);
 
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-*/
-!function(t){t.fn.viewportChecker=function(o){var e={classToAdd:"visible",classToRemove:"invisible",classToAddForFullView:"full-visible",removeClassAfterAnimation:!1,offset:100,repeat:!1,invertBottomOffset:!0,callbackFunction:function(t,o){},scrollHorizontal:!1,scrollBox:window};t.extend(e,o);var a=this,s={height:t(e.scrollBox).height(),width:t(e.scrollBox).width()};return this.checkElements=function(){var o,l;e.scrollHorizontal?(o=Math.max(t("html").scrollLeft(),t("body").scrollLeft(),t(window).scrollLeft()),l=o+s.width):(o=Math.max(t("html").scrollTop(),t("body").scrollTop(),t(window).scrollTop()),l=o+s.height),a.each(function(){var a=t(this),i={},n={};if(a.data("vp-add-class")&&(n.classToAdd=a.data("vp-add-class")),a.data("vp-remove-class")&&(n.classToRemove=a.data("vp-remove-class")),a.data("vp-add-class-full-view")&&(n.classToAddForFullView=a.data("vp-add-class-full-view")),a.data("vp-keep-add-class")&&(n.removeClassAfterAnimation=a.data("vp-remove-after-animation")),a.data("vp-offset")&&(n.offset=a.data("vp-offset")),a.data("vp-repeat")&&(n.repeat=a.data("vp-repeat")),a.data("vp-scrollHorizontal")&&(n.scrollHorizontal=a.data("vp-scrollHorizontal")),a.data("vp-invertBottomOffset")&&(n.scrollHorizontal=a.data("vp-invertBottomOffset")),t.extend(i,e),t.extend(i,n),!a.data("vp-animated")||i.repeat){String(i.offset).indexOf("%")>0&&(i.offset=parseInt(i.offset)/100*s.height);var d=i.scrollHorizontal?a.offset().left:a.offset().top,r=i.scrollHorizontal?d+a.width():d+a.height(),c=Math.round(d)+i.offset,h=i.scrollHorizontal?c+a.width():c+a.height();i.invertBottomOffset&&(h-=2*i.offset),c<l&&h>o?(a.removeClass(i.classToRemove),a.addClass(i.classToAdd),i.callbackFunction(a,"add"),r<=l&&d>=o?a.addClass(i.classToAddForFullView):a.removeClass(i.classToAddForFullView),a.data("vp-animated",!0),i.removeClassAfterAnimation&&a.one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend",function(){a.removeClass(i.classToAdd)})):a.hasClass(i.classToAdd)&&i.repeat&&(a.removeClass(i.classToAdd+" "+i.classToAddForFullView),i.callbackFunction(a,"remove"),a.data("vp-animated",!1))}})},("ontouchstart"in window||"onmsgesturechange"in window)&&t(document).bind("touchmove MSPointerMove pointermove",this.checkElements),t(e.scrollBox).bind("load scroll",this.checkElements),t(window).resize(function(o){s={height:t(e.scrollBox).height(),width:t(e.scrollBox).width()},a.checkElements()}),this.checkElements(),this}}(jQuery);var isBuilder=$("html").hasClass("is-builder");isBuilder||$(".counters").each(function(){$(this).viewportChecker({callbackFunction:function(t,o){$("#"+t.attr("id")+" .count").each(function(){$(this).prop("Counter",0).animate({Counter:$(this).text()},{duration:3e3,easing:"swing",step:function(t){$(this).text(Math.ceil(t))}})})}})});
+                    $(this).prop('Counter', 0).animate({
+                        Counter: counter
+                    }, {
+                        duration: 3000,
+                        easing: 'swing',
+                        step: function(now) {
+                            $(this).text(Math.ceil(now));
+                        },
+                        done: function () {
+                            $(this).text(value);
+                        }
+                    });
+                });
+            }
+        });
+    });
+}
