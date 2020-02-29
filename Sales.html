@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
@@ -109,37 +110,32 @@
 		<script type="text/javascript" src="assets/sales/chalk.js"></script>
 		
 <!-- amCharts javascript code -->
-		<script type="text/javascript">
+<script type="text/javascript">
 			AmCharts.makeChart("chartdiv",
 				{
 					"type": "serial",
 					"categoryField": "category",
 					"rotate": true,
-					"autoMarginOffset": 40,
-					"marginRight": 60,
-					"marginTop": 60,
+					"minMarginRight": 0,
 					"startDuration": 1,
-					"accessibleTitle": "",
-					"fontSize": 19,
-					"handDrawScatter": 4,
-					"handDrawThickness": 3,
-					"processTimeout": -4,
+					"startEffect": "bounce",
+					"color": "#FFFFFF",
 					"theme": "chalk",
 					"categoryAxis": {
 						"gridPosition": "start",
 						"position": "right",
-						"title": "All Sales are in Million Unites",
+						"gridCount": 3,
+						"title": "All Sales Are In Million Unites",
 						"titleBold": false
 					},
 					"trendLines": [],
 					"graphs": [
 						{
-							"balloonColor": "#000000",
-							"balloonText": "[[title]] [[category]]:[[value]]",
+							"balloonText": "[[title]] of [[category]]:[[value]]",
 							"fillAlphas": 1,
 							"id": "AmGraph-1",
-							"labelText": "",
-							"title": "Sales Of ",
+							"labelText": "[[value]]",
+							"title": "Devil May Cry Title",
 							"type": "column",
 							"valueField": "column-1"
 						},
@@ -147,9 +143,10 @@
 							"balloonText": "[[title]] of [[category]]:[[value]]",
 							"bullet": "round",
 							"id": "AmGraph-2",
-							"labelText": "",
+							"labelText": "[[value]]",
 							"lineThickness": 2,
-							"title": "graph 2",
+							"title": "Unit Sales Count",
+							"type": "column",
 							"valueField": "column-2"
 						}
 					],
@@ -161,36 +158,56 @@
 						}
 					],
 					"allLabels": [],
-					"balloon": {},
-					"titles": [],
+					"balloon": {
+						"borderAlpha": 0.51,
+						"borderColor": "#000000",
+						"borderThickness": 3,
+						"color": "#FFFFFF",
+						"cornerRadius": 2,
+						"fillColor": "#282828",
+						"fontSize": 21
+					},
+					"legend": {
+						"enabled": true,
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"bold": false,
+							"id": "Title-1",
+							"size": 15,
+							"tabIndex": 0,
+							"text": "Devil May Cry Sales Chart"
+						}
+					],
 					"dataProvider": [
 						{
 							"category": "Devil May Cry",
-							"column-1": "2.16"
+							"column-2": "2.16"
 						},
 						{
-							"category": "Devil May Cry 2",
-							"column-1": "1.7"
+							"category": "Devil May Cry  2",
+							"column-2": "1.7"
 						},
 						{
 							"category": "Devil May Cry 3",
-							"column-1": "2.3"
+							"column-2": "2.3"
 						},
 						{
 							"category": "Devil May Cry 4",
-							"column-1": "3.0"
+							"column-2": "4.3"
 						},
 						{
-							"category": "Devil May Cry 4 Special Edition",
-							"column-1": "1.4"
+							"category": "Devil May Cry 4 : Special Edition",
+							"column-2": "1.4"
 						},
 						{
 							"category": "Devil May Cry : HD Collection",
-							"column-1": "1.2"
+							"column-2": "1.2"
 						},
 						{
 							"category": "Devil May Cry 5",
-							"column-1": "3.1"
+							"column-2": "3.1"
 						}
 					]
 				}
