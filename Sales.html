@@ -133,18 +133,22 @@
 						{
 							"balloonText": "[[title]] of [[category]]:[[value]]",
 							"fillAlphas": 1,
+							"gapPeriod": 2,
 							"id": "AmGraph-1",
 							"labelText": "[[value]]",
-							"title": "Devil May Cry Title",
-							"type": "column",
-							"valueField": "column-1"
+							"title": "",
+							"valueField": "column-1",
+							"visibleInLegend": false
 						},
 						{
 							"balloonText": "[[title]] of [[category]]:[[value]]",
-							"bullet": "round",
+							"bullet": "bubble",
+							"bulletBorderThickness": 11,
 							"id": "AmGraph-2",
 							"labelText": "[[value]]",
 							"lineThickness": 2,
+							"negativeLineAlpha": 0.52,
+							"negativeLineColor": "#FF0000",
 							"title": "Unit Sales Count",
 							"type": "column",
 							"valueField": "column-2"
@@ -171,15 +175,7 @@
 						"enabled": true,
 						"useGraphSettings": true
 					},
-					"titles": [
-						{
-							"bold": false,
-							"id": "Title-1",
-							"size": 15,
-							"tabIndex": 0,
-							"text": "Devil May Cry Sales Chart"
-						}
-					],
+					"titles": [],
 					"dataProvider": [
 						{
 							"category": "Devil May Cry",
