@@ -118,42 +118,39 @@
 					"type": "serial",
 					"categoryField": "category",
 					"rotate": true,
-					"autoMarginOffset": 40,
-					"marginRight": 60,
-					"marginTop": 60,
+					"angle": 10,
+					"autoMarginOffset": 20,
+					"depth3D": 10,
 					"startDuration": 1,
-					"fontFamily": "Trebuchet MS",
-					"fontSize": 13,
+					"startEffect": "bounce",
+					"classNamePrefix": "originaldmc",
+					"fontFamily": "Impact",
+					"fontSize": 16,
+					"handDrawScatter": 3,
 					"theme": "chalk",
 					"categoryAxis": {
 						"gridPosition": "start",
 						"position": "right",
-						"title": "All sales are in million units"
+						"gridThickness": 0,
+						"titleFontSize": 6
 					},
 					"trendLines": [],
 					"graphs": [
 						{
-							"balloonText": "[[category]]:[[value]]",
+							"balloonText": "[[value]] Million Units ",
 							"fillAlphas": 1,
 							"id": "AmGraph-1",
-							"labelText": "",
-							"title": "graph 1",
+							"tabIndex": 2,
+							"title": "Standard Edition",
 							"type": "column",
 							"valueField": "column-1"
 						},
 						{
-							"balloonText": "[[title]] of [[category]]:[[value]]",
-							"bullet": "round",
+							"balloonText": "[[value]] Million Units ",
+							"fillAlphas": 1,
 							"id": "AmGraph-2",
-							"labelText": "",
-							"lineThickness": 2,
-							"title": "graph 2",
-							"valueField": "column-2"
-						},
-						{
-							"balloonText": "[[value]] ",
-							"id": "AmGraph-3",
-							"title": "graph 3",
+							"title": "Special Edition",
+							"type": "column",
 							"valueField": "column-2"
 						}
 					],
@@ -166,37 +163,47 @@
 					],
 					"allLabels": [],
 					"balloon": {},
+					"legend": {
+						"enabled": true,
+						"maxColumns": -2,
+						"useGraphSettings": true
+					},
 					"titles": [],
 					"dataProvider": [
 						{
 							"category": "Devil May Cry",
-							"column-1": "2.16"
+							"column-1": "2.16",
+							"column-2": ""
 						},
 						{
 							"category": "Devil May Cry 2",
-							"column-1": "1.7"
+							"column-1": "1.7",
+							"column-2": ""
 						},
 						{
-							"category": "Devil Ma y Cry 3",
-							"column-1": "2.3"
+							"category": "Devil May Cry 3",
+							"column-1": "1.3",
+							"column-2": "1.0"
 						},
 						{
 							"category": "Devil May Cry 4",
-							"column-1": "3.0"
+							"column-1": "3.0",
+							"column-2": "1.4"
 						},
 						{
 							"category": "Devil May Cry : HD Collection",
-							"column-1": "1.2"
+							"column-1": "1.2",
+							"column-2": null
 						},
 						{
-							"category": "Devil May Cry 5 (First 2 weeks sale)",
-							"column-1": "2.0"
+							"category": "Devil May Cry 5",
+							"column-1": "3.1",
+							"column-2": null
 						}
 					]
 				}
 			);
 		</script>
-	
 		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #282828;" ></div>
 <section once="footers" class="cid-rCTOmnhWsC" id="footer7-s">
 
