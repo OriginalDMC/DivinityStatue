@@ -35,7 +35,7 @@
 			animate: true,
 			callback: function () {}
 		}, options);
-
+		
 		// Perform consent checks
 		if(!getCookie('cookiesDirective')) {
 			if(settings.limit > 0) {
@@ -66,6 +66,16 @@
 			settings.scriptWrapper.call();
 		}
 	};
+
+	function invertHex(hex) {
+		hex = hex.slice(1);
+
+		var r = parseInt(hex.slice(0, 2), 16),
+		g = parseInt(hex.slice(2, 4), 16),
+		b = parseInt(hex.slice(4, 6), 16);
+
+		return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#000000' : '#FFFFFF';
+	}
 
 	// Used to load external javascript files into the DOM
 	$.cookiesDirective.loadScript = function(options) {
@@ -191,7 +201,7 @@
 			html += '-khtml-opacity: .' + settings.backgroundOpacity + '; -moz-opacity: .' + settings.backgroundOpacity + ';';
 			html += 'color:' + settings.fontColor + ';';
 			html += 'text-align:center;z-index:1000;">';
-			html += '<div class="cookieText display-7" style="position:relative;height:auto;width:90%;padding:10px;margin-left:auto;margin-right:auto; font-size:inherit;">';
+			html += '<div class="cookie-wrapper" style="position:relative;height:auto;width:90%;padding:10px;margin-left:auto;margin-right:auto;"><div class="mbr-text"><p class="display-7">';
 
 			if(!settings.message) {
 				if(settings.explicitConsent) {
@@ -203,6 +213,7 @@
 					settings.message = 'We have placed cookies on your computer to help make this website better.';
 				}
 			}
+			settings.message +='</p></div>'
 			html += settings.message;
 
 			// Build the rest of the disclosure for implied and explicit consent
@@ -218,12 +229,12 @@
 			} else {
 				// Implied consent disclosure
 				html += scriptsDisclosure;
-				html += '<input style="display: inline-block; margin-left:10px; font-size:inherit;' + (settings.colorButton ? ' background-color:' + settings.colorButton + ' !important;' : '') + (settings.colorButton && self === top ? 'border-color:' + settings.colorButton + ' !important;' : '') + '" type="submit" name="impliedsubmit" id="impliedsubmit" class="btn btn-sm btn-primary display-7" value="' + settings.textButton + '"/></div>';
+				html += '<div class="mbr-section-btn"><a style="margin:0;' + (settings.colorButton ? ' background-color:' + settings.colorButton + ' !important;color:' + invertHex(settings.colorButton) + '!important;' : '') + (settings.colorButton && self === top ? 'border-color:' + settings.colorButton + ' !important;' : '') + '" id="impliedsubmit" class="btn btn-sm btn-primary display-7">' + settings.textButton + '</a></div>';
 			}
 			html += '</div></div>';
 
 			// Links
-			html = html.replace(/<a/g, '<a style="color: ' + settings.linkColor + ';text-decoration:' + (settings.underlineLink === true || settings.underlineLink === 'true' ? 'underline' : 'none') + ';"');
+			html = html.replace(/<a((?:(?!btn).)*?>)/g, '<a style="color: ' + settings.linkColor + ';text-decoration:' + (settings.underlineLink === true || settings.underlineLink === 'true' ? 'underline' : 'none') + ';" $1');
 
 			$('body').append(html);
 
@@ -253,7 +264,7 @@
 			// button for the user to indicate that they do not want to see
 			// the message again.
 			} else {
-				if ($cd.find('input#impliedsubmit').length == 0) {
+				if ($cd.find('a#impliedsubmit').length == 0) {
 					$cd.append('<input type="submit" id="impliedsubmit" value="Do not show this message again" />');
 					console.warn('cookiesDirective: Submit button with ID "impliedsubmit" does not exist in custom dialog, so automatically added');
 				}
@@ -288,6 +299,15 @@
 		} else {
 			opts.in = {'bottom':settings.positionOffset};
 			opts.out = {'bottom':'-300'};
+		}
+
+		// check if this page is privacy.html
+		function checkPrivacyPage() {
+		if (location.href.search('privacy.html') !== -1) return true
+			else return false
+		}
+		if (checkPrivacyPage()) {
+			$dialog.remove();
 		}
 
 		// Start animation

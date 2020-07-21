@@ -569,9 +569,13 @@
                 } else if ($('input[name=animation]').length) {
                     $('input[name=animation]').remove();
 
-                    var $animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info').not(function() {
-                    	return $(this).parents().is('a, p, .navbar, .mbr-arrow, footer, .iconbox, .mbr-slider, .mbr-gallery, .mbr-testimonial .card-block, #cookiesdirective, .mbr-wowslider, .accordion, .tab-content, .engine, #scrollToTop');
-                    }).addClass('hidden animated');
+                    var $animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, select, textarea, .input-group, .form-control, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info')
+                        .not(function() {
+                            return $(this).parents().is('a, p, .navbar, .mbr-arrow, footer, .iconbox, .mbr-slider, .mbr-gallery, .mbr-testimonial .card-block, #cookiesdirective, .mbr-wowslider, .accordion, .tab-content, .engine, #scrollToTop');
+                        })
+                        .not(function(){
+                            return $(this).parents().is('form') && $(this).is('li')
+                        }).addClass('hidden animated');
 
                     function getElementOffset(element) {
                         var top = 0;
@@ -1082,6 +1086,7 @@
 
             $('section .form-with-styler').each(function () {
                 $(this).find('select:not("[multiple]")').each(function () {
+                    $(this).hide();
                     $(this).styler();
                 });
                 $(this).find('input[type=number]').each(function () {

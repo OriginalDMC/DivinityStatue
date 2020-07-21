@@ -1,7 +1,12 @@
 @font-face {
-   font-family: 'ZEnzai Itachi';
+   font-family: 'big_noodle';
    font-display: swap;
-   src: url('ZEnzai Itachi/font.ttf');
+   src: url('big_noodle/font.ttf');
+}
+@font-face {
+   font-family: 'ZenzaiIt';
+   font-display: swap;
+   src: url('ZenzaiIt/font.ttf');
 }
 @font-face {
    font-family: 'Mason';
@@ -9,14 +14,9 @@
    src: url('Mason/font.ttf');
 }
 @font-face {
-   font-family: 'BankGothic Bold';
+   font-family: 'bankGothicBold';
    font-display: swap;
-   src: url('BankGothic Bold/font.ttf');
-}
-@font-face {
-   font-family: 'big_noodle_titling_oblique';
-   font-display: swap;
-   src: url('big_noodle_titling_oblique/font.ttf');
+   src: url('bankGothicBold/font.ttf');
 }
 @font-face {
    font-family: 'Ostrich Sans Medium';
