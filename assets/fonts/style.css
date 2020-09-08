@@ -1,0 +1,25 @@
+@font-face {
+   font-family: 'big_noodle';
+   font-display: swap;
+   src: url('big_noodle/font.ttf');
+}
+@font-face {
+   font-family: 'ZenzaiIt';
+   font-display: swap;
+   src: url('ZenzaiIt/font.ttf');
+}
+@font-face {
+   font-family: 'Mason';
+   font-display: swap;
+   src: url('Mason/font.ttf');
+}
+@font-face {
+   font-family: 'bankGothicBold';
+   font-display: swap;
+   src: url('bankGothicBold/font.ttf');
+}
+@font-face {
+   font-family: 'Ostrich Sans Medium';
+   font-display: swap;
+   src: url('Ostrich Sans Medium/font.ttf');
+}
