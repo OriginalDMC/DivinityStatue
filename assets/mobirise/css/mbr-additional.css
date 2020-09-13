@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:400&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap);
 
 body {
   font-family: Rubik;
@@ -28,12 +28,12 @@ body {
   font-size: 2.4rem;
 }
 .display-5 {
-  font-family: 'Bebas Neue', display;
-  font-size: 1.4rem;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.6rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.24rem;
+  font-size: 2.56rem;
 }
 .display-7 {
   font-family: 'bankGothicBold';
@@ -65,9 +65,9 @@ body {
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1751,6 +1751,51 @@ section.lazy-placeholder:after {
   transition: box-shadow 0.3s;
 }
 .cid-rI1Q6RHhZ4 .card-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-sasQ0t5xaJ {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/282-1562897096-1850819458-1920x1080.jpg");
+}
+.cid-sasQ0t5xaJ .card-box {
+  padding: 0 2rem;
+}
+.cid-sasQ0t5xaJ .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-sasQ0t5xaJ .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-sasQ0t5xaJ h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-sasQ0t5xaJ p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-sasQ0t5xaJ .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-sasQ0t5xaJ .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #000000;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-sasQ0t5xaJ .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-sasQ0t5xaJ .card-title {
   text-align: center;
   color: #ffffff;
 }
