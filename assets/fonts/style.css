@@ -9,11 +9,6 @@
    src: url('ZenzaiIt/font.ttf');
 }
 @font-face {
-   font-family: 'Mason';
-   font-display: swap;
-   src: url('Mason/font.ttf');
-}
-@font-face {
    font-family: 'bankGothicBold';
    font-display: swap;
    src: url('bankGothicBold/font.ttf');
