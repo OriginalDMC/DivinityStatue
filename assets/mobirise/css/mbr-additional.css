@@ -1388,9 +1388,9 @@ section.lazy-placeholder:after {
   width: 100%;
 }
 .cid-rCTRDjbJmc {
-  padding-top: 105px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/915wvlz34zs31-1920x1080.jpg");
+  padding-top: 75px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/lady-wal-1250x594.jpeg");
 }
 .cid-s9LOYhQMtS {
   padding-top: 90px;
@@ -2275,6 +2275,11 @@ section.lazy-placeholder:after {
   text-align: center;
   color: #ffffff;
 }
+.cid-sbV1HpnlPa {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/v-devil-may-cry-5-summons-uhdpaper.com-hd-3.809-1276x718.jpeg");
+}
 .cid-rCU2aKBVR7 {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2368,7 +2373,7 @@ section.lazy-placeholder:after {
 .cid-s9LlVElisd {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/devil-may-cry-5-trish-uhdpaper.com-4k-210-1280x720.jpg");
+  background-image: url("../../../assets/images/pc-img-list-202009041026103460-1276x718.jpg");
 }
 .cid-s9LlVElisd .card-box {
   padding: 0 2rem;
@@ -10133,6 +10138,83 @@ section.lazy-placeholder:after {
   text-align: center;
   color: #ffffff;
 }
+.cid-sbUKrAINUQ {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/maxresdefault-1280x720.jpeg");
+}
+.cid-sbUKrAINUQ .mbr-section-btn > * {
+  margin: 0;
+}
+.cid-sbUKrAINUQ h4 {
+  font-weight: 500;
+}
+.cid-sbUKrAINUQ p {
+  color: #232323;
+}
+.cid-sbUKrAINUQ .aside-content {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cid-sbUKrAINUQ .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-sbUKrAINUQ .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-sbUKrAINUQ .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-sbUKrAINUQ .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-sbUKrAINUQ .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-sbUKrAINUQ .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sbUKrAINUQ .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-sbUKrAINUQ .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-sbUKrAINUQ .cost {
+  text-decoration: line-through;
+  color: #767676;
+}
+.cid-sbUKrAINUQ H2 {
+  color: #ffffff;
+}
+.cid-sbUKrAINUQ .text1 {
+  color: #ffffff;
+}
+.cid-sbUKrAINUQ .text2,
+.cid-sbUKrAINUQ .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-s9VxPHrH2F {
   padding-top: 90px;
   padding-bottom: 45px;
@@ -10751,6 +10833,7 @@ section.lazy-placeholder:after {
 }
 .cid-s9WCG1Tiur .panel-text {
   color: #000000;
+  text-align: left;
 }
 .cid-s9WCG1Tiur H2 {
   color: #7f1933;
