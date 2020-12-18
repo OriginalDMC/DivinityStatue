@@ -1070,7 +1070,7 @@ section.lazy-placeholder:after {
 .cid-s4Es2zmRL9 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/17252-2-1280x1024.jpeg");
+  background-image: url("../../../assets/images/-gloria-1280x448.jpg");
 }
 .cid-s4Es2zmRL9 [class^="socicon-"]:before,
 .cid-s4Es2zmRL9 [class*=" socicon-"]:before {
@@ -1116,7 +1116,7 @@ section.lazy-placeholder:after {
 .cid-s9WVTI6BCW {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mission-11-showtime-august-30-2007.mkv-snapshot-20.33.607-1280x720.jpg");
+  background-image: url("../../../assets/images/34fyl6-1922x880.jpg");
 }
 .cid-rCTHNpZ9mp {
   padding-top: 90px;
@@ -1126,7 +1126,7 @@ section.lazy-placeholder:after {
 .cid-rCTJxLBUe4 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/nico-devil-may-cry-5-game-j8-1280x631.jpg");
+  background-image: url("../../../assets/images/1596164392-1000-1632x854.png");
 }
 .cid-rCTJxLBUe4 .mbr-figure {
   margin: 0 auto;
@@ -1197,7 +1197,7 @@ section.lazy-placeholder:after {
 .cid-rCTMrYWBRp {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dante-and-trish-devil-may-cry-5-uhdpaper.com-8k-224-1920x1080.jpg");
+  background-image: url("../../../assets/images/54e5fdcf7f1795e274422c6dcb3e6cd95786b7d4-1920x860.jpg");
 }
 .cid-rCTMrYWBRp .media-container-column {
   align-items: center;
@@ -7116,6 +7116,32 @@ section.lazy-placeholder:after {
   padding-bottom: 60px;
   background-image: url("../../../assets/images/28680-1-1278x502.jpg");
 }
+.cid-rCVY7WeXuY {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/devil-may-cry-5-dante-devil-trigger-uhdpaper.com-4k-85-1280x720.jpg");
+}
+.cid-rCVY7WeXuY .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rCVY7WeXuY .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rCVY7WeXuY .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rCVY7WeXuY .mbr-text {
+    text-align: center;
+  }
+}
 .cid-rCVWGFpv5Z {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -7158,124 +7184,6 @@ section.lazy-placeholder:after {
   transition: box-shadow 0.3s;
 }
 .cid-rCVWGFpv5Z .card-title {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-rCVY7WeXuY {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/devil-may-cry-5-dante-devil-trigger-uhdpaper.com-4k-85-1280x720.jpg");
-}
-.cid-rCVY7WeXuY .media-container-row {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-@media (min-width: 992px) {
-  .cid-rCVY7WeXuY .mbr-figure {
-    padding-right: 4rem;
-    padding-right: 0;
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rCVY7WeXuY .mbr-figure {
-    padding-bottom: 3rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-rCVY7WeXuY .mbr-text {
-    text-align: center;
-  }
-}
-.cid-rCW5yjfEP2 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/dllhost-2018-09-27-03-14-51-1024x570.jpg");
-}
-.cid-rCW5yjfEP2 h4 {
-  text-align: left;
-  font-weight: 500;
-}
-.cid-rCW5yjfEP2 p {
-  color: #767676;
-  text-align: left;
-  margin-bottom: 0;
-}
-.cid-rCW5yjfEP2 .card-img {
-  text-align: left;
-  -webkit-flex: 1 0 auto;
-  flex: 1 0 auto;
-  width: auto;
-}
-.cid-rCW5yjfEP2 .card-img span {
-  font-size: 72px;
-  color: #ff3366;
-}
-.cid-rCW5yjfEP2 .card-box {
-  padding-left: 1rem;
-  word-break: break-word;
-  width: 100%;
-}
-@media (max-width: 991px) {
-  .cid-rCW5yjfEP2 .card-img {
-    text-align: left;
-    padding-bottom: 0.75rem;
-  }
-  .cid-rCW5yjfEP2 .card-box {
-    padding-left: 0;
-  }
-}
-.cid-rCW5yjfEP2 P {
-  text-align: center;
-}
-.cid-rCW5yjfEP2 .card-title,
-.cid-rCW5yjfEP2 .card-img {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-rCW4eYHZnX {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/54268014-1152269124946783-7448311746189590528-o-1-1919x771.jpg");
-}
-.cid-rCW4eYHZnX h4 {
-  text-align: left;
-  font-weight: 500;
-}
-.cid-rCW4eYHZnX p {
-  color: #767676;
-  text-align: left;
-  margin-bottom: 0;
-}
-.cid-rCW4eYHZnX .card-img {
-  text-align: left;
-  -webkit-flex: 1 0 auto;
-  flex: 1 0 auto;
-  width: auto;
-}
-.cid-rCW4eYHZnX .card-img span {
-  font-size: 72px;
-  color: #ff3366;
-}
-.cid-rCW4eYHZnX .card-box {
-  padding-left: 1rem;
-  word-break: break-word;
-  width: 100%;
-}
-@media (max-width: 991px) {
-  .cid-rCW4eYHZnX .card-img {
-    text-align: left;
-    padding-bottom: 0.75rem;
-  }
-  .cid-rCW4eYHZnX .card-box {
-    padding-left: 0;
-  }
-}
-.cid-rCW4eYHZnX P {
-  text-align: center;
-}
-.cid-rCW4eYHZnX .card-title,
-.cid-rCW4eYHZnX .card-img {
   text-align: center;
   color: #ffffff;
 }
