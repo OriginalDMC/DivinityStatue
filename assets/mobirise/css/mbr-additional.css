@@ -1971,7 +1971,7 @@ a {
 .cid-sls8GkE1my {
   padding-top: 4rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/efla6iywkamodtu-1920x1080.jpg");
+  background-image: url("../../../assets/images/efla6iywkamodtu-1-1920x1080.jpg");
 }
 .cid-sls8GkE1my .image-wrap img {
   width: 100%;
@@ -2205,6 +2205,55 @@ a {
 }
 .cid-slseOdpouc .card-title DIV {
   text-align: left;
+}
+.cid-snq5OJ1PBu {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/dmc5-ost-art-1500x574.jpg");
+}
+@media (max-width: 767px) {
+  .cid-snq5OJ1PBu .card-box {
+    padding: 1rem;
+  }
+  .cid-snq5OJ1PBu .mbr-section-btn,
+  .cid-snq5OJ1PBu .price {
+    text-align: center;
+  }
+  .cid-snq5OJ1PBu .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-snq5OJ1PBu .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-snq5OJ1PBu .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-snq5OJ1PBu .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-snq5OJ1PBu .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-snq5OJ1PBu .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-snq5OJ1PBu .mbr-text {
+  color: #ffffff;
+}
+.cid-snq5OJ1PBu .card-title {
+  color: #ffffff;
+}
+.cid-snq5OJ1PBu .price {
+  color: #df114f;
 }
 .cid-slshDx3ZmP {
   padding-top: 6rem;
