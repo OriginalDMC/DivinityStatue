@@ -1310,6 +1310,78 @@ a {
 .cid-sllGkrfRo0 .mbr-section-title {
   color: #ffffff;
 }
+.cid-snpasqzybe {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/dmc-4-dante-1600x756.jpeg");
+}
+.cid-snpasqzybe .socicon-bg-facebook {
+  background: #1778f2;
+  color: #ffffff;
+}
+.cid-snpasqzybe .socicon-bg-facebook:hover {
+  background: #0b60cb;
+}
+.cid-snpasqzybe .socicon-bg-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+}
+.cid-snpasqzybe .socicon-bg-twitter:hover {
+  background: #0c85d0;
+}
+.cid-snpasqzybe .socicon-bg-vkontakte {
+  background: #4680C2;
+  color: #ffffff;
+}
+.cid-snpasqzybe .socicon-bg-vkontakte:hover {
+  background: #3567a0;
+}
+.cid-snpasqzybe .socicon-bg-odnoklassniki {
+  background: #ee8208;
+  color: #ffffff;
+}
+.cid-snpasqzybe .socicon-bg-odnoklassniki:hover {
+  background: #bd6706;
+}
+.cid-snpasqzybe .socicon-bg-pinterest {
+  background: #e60023;
+  color: #ffffff;
+}
+.cid-snpasqzybe .socicon-bg-pinterest:hover {
+  background: #b3001b;
+}
+.cid-snpasqzybe .socicon-bg-mail {
+  background: #005ff9;
+  color: #ffffff;
+}
+.cid-snpasqzybe .socicon-bg-mail:hover {
+  background: #004cc6;
+}
+.cid-snpasqzybe .btn-social {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none !important;
+}
+.cid-snpasqzybe .btn-social i {
+  top: 0;
+  line-height: 55px;
+  width: 55px;
+}
+.cid-snpasqzybe [class^="socicon-"]:before,
+.cid-snpasqzybe [class*=" socicon-"]:before {
+  line-height: 55px;
+}
+.cid-snpasqzybe .mbr-section-title,
+.cid-snpasqzybe .mbr-social-likes {
+  color: #ffffff;
+}
 .cid-sllLVkOtux {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1463,6 +1535,158 @@ a {
 .cid-slrGDn0WWq .card-title DIV {
   text-align: left;
 }
+.cid-sls0S4fwn3 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/282-1562897096-1850819458-1920x1080.jpg");
+}
+@media (max-width: 767px) {
+  .cid-sls0S4fwn3 .card-box {
+    padding: 1rem;
+  }
+  .cid-sls0S4fwn3 .mbr-section-btn,
+  .cid-sls0S4fwn3 .price {
+    text-align: center;
+  }
+  .cid-sls0S4fwn3 .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sls0S4fwn3 .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sls0S4fwn3 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-sls0S4fwn3 .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-sls0S4fwn3 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sls0S4fwn3 .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-sls0S4fwn3 .mbr-text {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-sls0S4fwn3 .card-title {
+  color: #ffffff;
+}
+.cid-sls0S4fwn3 .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-sls0S4fwn3 .card-title DIV {
+  text-align: left;
+}
+.cid-snnK63X0BR {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/dante-devil-may-cry-1152x864.jpg");
+}
+@media (max-width: 767px) {
+  .cid-snnK63X0BR .card-box {
+    padding: 1rem;
+  }
+  .cid-snnK63X0BR .mbr-section-btn,
+  .cid-snnK63X0BR .price {
+    text-align: center;
+  }
+  .cid-snnK63X0BR .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-snnK63X0BR .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-snnK63X0BR .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-snnK63X0BR .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-snnK63X0BR .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-snnK63X0BR .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-snnK63X0BR .mbr-text {
+  color: #ffffff;
+}
+.cid-snnK63X0BR .card-title {
+  color: #ffffff;
+}
+.cid-snnK63X0BR .price {
+  color: #df114f;
+}
+.cid-snnZ9cHmAA {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/lucia-1920-118385-1280x960.jpg");
+}
+@media (max-width: 767px) {
+  .cid-snnZ9cHmAA .card-box {
+    padding: 1rem;
+  }
+  .cid-snnZ9cHmAA .mbr-section-btn,
+  .cid-snnZ9cHmAA .price {
+    text-align: center;
+  }
+  .cid-snnZ9cHmAA .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-snnZ9cHmAA .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-snnZ9cHmAA .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-snnZ9cHmAA .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-snnZ9cHmAA .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-snnZ9cHmAA .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-snnZ9cHmAA .mbr-text {
+  color: #ffffff;
+}
+.cid-snnZ9cHmAA .card-title {
+  color: #ffffff;
+}
+.cid-snnZ9cHmAA .price {
+  color: #df114f;
+}
 .cid-slrSR2KPxt {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1515,60 +1739,6 @@ a {
   text-align: right;
 }
 .cid-slrSR2KPxt .card-title DIV {
-  text-align: left;
-}
-.cid-slrLSBGqAq {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/devil-may-cry-5-nico-goldstein-mod-for-resident-evil-3-remake-3-1920x1080.jpg");
-}
-@media (max-width: 767px) {
-  .cid-slrLSBGqAq .card-box {
-    padding: 1rem;
-  }
-  .cid-slrLSBGqAq .mbr-section-btn,
-  .cid-slrLSBGqAq .price {
-    text-align: center;
-  }
-  .cid-slrLSBGqAq .mbr-section-btn .btn {
-    width: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .cid-slrLSBGqAq .card-box {
-    padding-right: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-slrLSBGqAq .card-box {
-    padding-left: 2rem;
-    padding-right: 4rem;
-  }
-}
-.cid-slrLSBGqAq .card-wrapper {
-  border-radius: 4px;
-  background-color: #000000;
-  background-color: transparent;
-}
-.cid-slrLSBGqAq .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-slrLSBGqAq .card:not(:nth-last-child(1)) {
-  margin-bottom: 2rem;
-}
-.cid-slrLSBGqAq .mbr-text {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-slrLSBGqAq .card-title {
-  color: #ffffff;
-}
-.cid-slrLSBGqAq .price {
-  color: #df114f;
-  text-align: right;
-}
-.cid-slrLSBGqAq .card-title DIV {
   text-align: left;
 }
 .cid-slrPpHjhKi {
@@ -1625,58 +1795,58 @@ a {
 .cid-slrPpHjhKi .card-title DIV {
   text-align: left;
 }
-.cid-sls0S4fwn3 {
+.cid-slrLSBGqAq {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/282-1562897096-1850819458-1920x1080.jpg");
+  background-image: url("../../../assets/images/devil-may-cry-5-nico-goldstein-mod-for-resident-evil-3-remake-3-1920x1080.jpg");
 }
 @media (max-width: 767px) {
-  .cid-sls0S4fwn3 .card-box {
+  .cid-slrLSBGqAq .card-box {
     padding: 1rem;
   }
-  .cid-sls0S4fwn3 .mbr-section-btn,
-  .cid-sls0S4fwn3 .price {
+  .cid-slrLSBGqAq .mbr-section-btn,
+  .cid-slrLSBGqAq .price {
     text-align: center;
   }
-  .cid-sls0S4fwn3 .mbr-section-btn .btn {
+  .cid-slrLSBGqAq .mbr-section-btn .btn {
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  .cid-sls0S4fwn3 .card-box {
+  .cid-slrLSBGqAq .card-box {
     padding-right: 2rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-sls0S4fwn3 .card-box {
+  .cid-slrLSBGqAq .card-box {
     padding-left: 2rem;
     padding-right: 4rem;
   }
 }
-.cid-sls0S4fwn3 .card-wrapper {
+.cid-slrLSBGqAq .card-wrapper {
   border-radius: 4px;
   background-color: #000000;
   background-color: transparent;
 }
-.cid-sls0S4fwn3 .image-wrapper img {
+.cid-slrLSBGqAq .image-wrapper img {
   width: 100%;
   object-fit: cover;
 }
-.cid-sls0S4fwn3 .card:not(:nth-last-child(1)) {
+.cid-slrLSBGqAq .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
-.cid-sls0S4fwn3 .mbr-text {
+.cid-slrLSBGqAq .mbr-text {
   color: #ffffff;
   text-align: left;
 }
-.cid-sls0S4fwn3 .card-title {
+.cid-slrLSBGqAq .card-title {
   color: #ffffff;
 }
-.cid-sls0S4fwn3 .price {
+.cid-slrLSBGqAq .price {
   color: #df114f;
   text-align: right;
 }
-.cid-sls0S4fwn3 .card-title DIV {
+.cid-slrLSBGqAq .card-title DIV {
   text-align: left;
 }
 .cid-sls3NYbEEY {
@@ -2529,7 +2699,7 @@ a {
 .cid-sltonBoI8U {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/devil-may-cry-5-v-vs-elder-geryon-knight-uhdpaper.com-4k-190-1280x720.jpg");
+  background-image: url("../../../assets/images/dmc-2-dante-18602-1280x804.jpg");
 }
 @media (max-width: 767px) {
   .cid-sltonBoI8U .card-box {
