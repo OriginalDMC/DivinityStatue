@@ -521,7 +521,7 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
   position: relative;
   background-image: transparent;
   background-size: 10000px 2px;
@@ -529,7 +529,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
   background-position: 0px 1.2em;
   background-position: -10000px 1.2em;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
   transition: background-position 2s ease-in-out;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
@@ -2778,6 +2778,60 @@ a {
   text-align: right;
 }
 .cid-sltlLH2xFR .card-title DIV {
+  text-align: left;
+}
+.cid-szG2Fc6pce {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/devil-may-cry-dante-anime-1332x850.jpg");
+}
+@media (max-width: 767px) {
+  .cid-szG2Fc6pce .card-box {
+    padding: 1rem;
+  }
+  .cid-szG2Fc6pce .mbr-section-btn,
+  .cid-szG2Fc6pce .price {
+    text-align: center;
+  }
+  .cid-szG2Fc6pce .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-szG2Fc6pce .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-szG2Fc6pce .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-szG2Fc6pce .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-szG2Fc6pce .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-szG2Fc6pce .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-szG2Fc6pce .mbr-text {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-szG2Fc6pce .card-title {
+  color: #ffffff;
+}
+.cid-szG2Fc6pce .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-szG2Fc6pce .card-title DIV {
   text-align: left;
 }
 .cid-sltonBoI8U {
@@ -7963,20 +8017,6 @@ a {
 .cid-slvjjdjfvI {
   background-image: url("../../../assets/images/devil-may-cry-devil-may-cry-1-39929932-1024-675-1024x673.png");
 }
-.cid-slvk23aPln {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  background-color: #000000;
-}
-.cid-slvk23aPln .line {
-  background-color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-slvk23aPln .mbr-text {
-  color: #ff9966;
-}
 .cid-srb5iCi1Lc {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -8053,54 +8093,6 @@ a {
 }
 .cid-srb5iCi1Lc .mbr-section-subtitle {
   color: #ffffff;
-}
-.cid-slvlAUSnuO {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/devil-may-cry-5-vergil-uhdpaper.com-4k-100-1920x1080.jpg");
-}
-@media (max-width: 767px) {
-  .cid-slvlAUSnuO .card-box {
-    padding: 1rem;
-  }
-  .cid-slvlAUSnuO .mbr-section-btn,
-  .cid-slvlAUSnuO .price {
-    text-align: center;
-  }
-  .cid-slvlAUSnuO .mbr-section-btn .btn {
-    width: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .cid-slvlAUSnuO .card-box {
-    padding-right: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-slvlAUSnuO .card-box {
-    padding-left: 2rem;
-    padding-right: 4rem;
-  }
-}
-.cid-slvlAUSnuO .card-wrapper {
-  border-radius: 4px;
-  background-color: #000000;
-}
-.cid-slvlAUSnuO .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-slvlAUSnuO .card:not(:nth-last-child(1)) {
-  margin-bottom: 2rem;
-}
-.cid-slvlAUSnuO .mbr-text {
-  color: #ffffff;
-}
-.cid-slvlAUSnuO .card-title {
-  color: #ffffff;
-}
-.cid-slvlAUSnuO .price {
-  color: #df114f;
 }
 .cid-slwjIsMSfK {
   padding-top: 6rem;
