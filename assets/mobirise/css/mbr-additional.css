@@ -2475,6 +2475,60 @@ a {
 .cid-sls9EiWBQ8 .card-title DIV {
   text-align: left;
 }
+.cid-sMl4JmX4cH {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/dmc4-1280x720.jpg");
+}
+@media (max-width: 767px) {
+  .cid-sMl4JmX4cH .card-box {
+    padding: 1rem;
+  }
+  .cid-sMl4JmX4cH .mbr-section-btn,
+  .cid-sMl4JmX4cH .price {
+    text-align: center;
+  }
+  .cid-sMl4JmX4cH .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sMl4JmX4cH .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sMl4JmX4cH .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-sMl4JmX4cH .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-sMl4JmX4cH .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sMl4JmX4cH .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-sMl4JmX4cH .mbr-text {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-sMl4JmX4cH .card-title {
+  color: #ffffff;
+}
+.cid-sMl4JmX4cH .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-sMl4JmX4cH .card-title DIV {
+  text-align: left;
+}
 .cid-slsbVNp61e {
   padding-top: 6rem;
   padding-bottom: 6rem;
