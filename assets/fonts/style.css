@@ -9,9 +9,9 @@
    src: url('Cinzel-Black/font.ttf');
 }
 @font-face {
-   font-family: 'big_noodle';
+   font-family: 'big_noodle_titling';
    font-display: swap;
-   src: url('big_noodle/font.ttf');
+   src: url('big_noodle_titling/font.ttf');
 }
 @font-face {
    font-family: 'BankGothic Bold';
