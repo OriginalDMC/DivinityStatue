@@ -97,46 +97,60 @@
 		<script type="text/javascript" src="assets/sales/chalk.js"></script>
 		
 <!-- amCharts javascript code -->
-
 		<script type="text/javascript">
 			AmCharts.makeChart("chartdiv",
 				{
 					"type": "serial",
 					"categoryField": "category",
 					"rotate": true,
-					"angle": 10,
-					"autoMarginOffset": 20,
-					"depth3D": 10,
+					"plotAreaBorderColor": "#FFFFFF",
+					"colors": [
+						"#C70039",
+						"#15C3CB",
+						"#B0DE09",
+						"#0D8ECF",
+						"#2A0CD0",
+						"#CD0D74",
+						"#CC0000",
+						"#00CC00",
+						"#0000CC",
+						"#DDDDDD",
+						"#999999",
+						"#333333",
+						"#990000"
+					],
 					"startDuration": 1,
-					"startEffect": "bounce",
-					"classNamePrefix": "originaldmc",
+					"backgroundColor": "#000000",
+					"borderColor": "#FFFFFF",
 					"fontFamily": "Impact",
-					"fontSize": 16,
-					"handDrawScatter": 3,
-					"theme": "chalk",
+					"fontSize": 14,
+					"theme": "black",
 					"categoryAxis": {
 						"gridPosition": "start",
 						"position": "right",
-						"gridThickness": 0,
-						"titleFontSize": 6
+						"titleBold": false
+					},
+					"chartCursor": {
+						"enabled": true
 					},
 					"trendLines": [],
 					"graphs": [
 						{
-							"balloonText": "[[value]] Million Units ",
+							"balloonText": "[[value]] Million Units Sold",
 							"fillAlphas": 1,
 							"id": "AmGraph-1",
-							"tabIndex": 2,
+							"labelText": "",
 							"title": "Standard Edition",
 							"type": "column",
 							"valueField": "column-1"
 						},
 						{
-							"balloonText": "[[value]] Million Units ",
+							"balloonText": "[[value]] Million Units Sold",
 							"fillAlphas": 1,
 							"id": "AmGraph-2",
 							"title": "Special Edition",
 							"type": "column",
+							"valueAxis": "ValueAxis-2",
 							"valueField": "column-2"
 						}
 					],
@@ -144,15 +158,28 @@
 					"valueAxes": [
 						{
 							"id": "ValueAxis-1",
-							"title": ""
+							"labelFrequency": 2,
+							"labelsEnabled": false,
+							"title": "Mouse Hover / Tap on Graph lines to see the details.",
+							"titleBold": false
+						},
+						{
+							"id": "ValueAxis-2",
+							"position": "right",
+							"gridAlpha": 0,
+							"labelsEnabled": false,
+							"title": "DATA is Based on CAPCOM IR",
+							"titleBold": false
 						}
 					],
 					"allLabels": [],
-					"balloon": {},
+					"balloon": {
+						"textAlign": " middle"
+					},
 					"legend": {
 						"enabled": true,
-						"maxColumns": -2,
-						"useGraphSettings": true
+						"align": "center",
+						"switchType": "v"
 					},
 					"titles": [],
 					"dataProvider": [
@@ -162,27 +189,27 @@
 							"column-2": ""
 						},
 						{
-							"category": "Devil May Cry 2",
+							"category": "Devil May Cry  2",
 							"column-1": "1.7",
 							"column-2": ""
 						},
 						{
-							"category": "Devil May Cry 3",
+							"category": "Devil May Cry  3",
 							"column-1": "1.3",
-							"column-2": "1.0"
+							"column-2": "1"
 						},
 						{
-							"category": "Devil May Cry 4",
+							"category": "Devil May Cry  4",
 							"column-1": "3.0",
-							"column-2": "1.4"
+							"column-2": "1.8"
 						},
 						{
-							"category": "Devil May Cry : HD Collection",
+							"category": "Devil May Cry  : HD Collection",
 							"column-1": "1.2",
 							"column-2": null
 						},
 						{
-							"category": "Devil May Cry 5",
+							"category": "Devil May Cry  5",
 							"column-1": "4.7",
 							"column-2": null
 						}
@@ -190,7 +217,9 @@
 				}
 			);
 		</script>
-		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #282828;" ></div>
+	</head>
+	<body>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #000000;" ></div>
 <section class="footer4 cid-slvQaRevHl" once="footers" id="footer4-5f">
 
     
