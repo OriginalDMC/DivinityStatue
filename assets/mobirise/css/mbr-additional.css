@@ -13,7 +13,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Cinzel-Black';
+  font-family: 'Mason';
   font-size: 1.2rem;
   line-height: 1.1;
 }
@@ -21,7 +21,7 @@ body {
   font-size: 1.5rem;
 }
 .display-4 {
-  font-family: 'ostrich-black';
+  font-family: 'Ostrich Sans Medium';
   font-size: 1.4rem;
   line-height: 1.5;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'big_noodle_titling';
+  font-family: 'Big Noodle';
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -37,12 +37,12 @@ body {
   font-size: 2rem;
 }
 .display-7 {
-  font-family: 'BankGothic Bold';
-  font-size: 1.2rem;
+  font-family: 'Bank Gothic Bold';
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -586,7 +586,7 @@ a:hover {
 }
 /* Scroll to top button*/
 .form-control {
-  font-family: 'ostrich-black';
+  font-family: 'Ostrich Sans Medium';
   font-size: 1.4rem;
   line-height: 1.5;
   font-weight: 400;
@@ -600,7 +600,7 @@ a:hover {
   border-color: #df114f !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'ostrich-black';
+  font-family: 'Ostrich Sans Medium';
   font-size: 1.4rem;
   line-height: 1.5;
   font-weight: 400;
@@ -1505,6 +1505,7 @@ a {
 }
 .cid-slrDSRB0Yp .price {
   color: #df114f;
+  text-align: right;
 }
 .cid-sE1sGywtpV {
   padding-top: 6rem;
@@ -7536,17 +7537,17 @@ a {
   }
 }
 .cid-slsSPvgWpz {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/mission-1-devil-may-cry-june-14-2007.mkv-snapshot-10.35.227-1280x720.jpeg");
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/devil-may-cry-anime-2-1920x1200.jpeg");
 }
 .cid-slsSPvgWpz .mbr-section-title {
   color: #ffffff;
 }
 .cid-slsTpIpJ9G {
-  padding-top: 0rem;
+  padding-top: 1rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/dmc-anime-trish-38988867-1920-1200-1920x924.jpg");
+  background-image: url("../../../assets/images/anime-animation.gif");
 }
 .cid-slsTpIpJ9G .row {
   align-items: center;
@@ -7578,6 +7579,9 @@ a {
   align: center;
   height: 2px;
   margin: 0 auto;
+}
+.cid-slsY2NZTru .mbr-text {
+  color: #df114f;
 }
 .cid-slsVR76KTN {
   padding-top: 2rem;
@@ -7618,6 +7622,9 @@ a {
 .cid-slsVR76KTN .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
+.cid-slsVR76KTN .price {
+  color: #df114f;
+}
 .cid-slsXhGsyA5 {
   padding-top: 2rem;
   padding-bottom: 0rem;
@@ -7656,6 +7663,9 @@ a {
 }
 .cid-slsXhGsyA5 .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
+}
+.cid-slsXhGsyA5 .price {
+  color: #df114f;
 }
 .cid-slsYrpOobQ {
   padding-top: 2rem;
@@ -7696,6 +7706,9 @@ a {
 .cid-slsYrpOobQ .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
+.cid-slsYrpOobQ .price {
+  color: #df114f;
+}
 .cid-slsYTvFC6m {
   padding-top: 2rem;
   padding-bottom: 0rem;
@@ -7734,6 +7747,9 @@ a {
 }
 .cid-slsYTvFC6m .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
+}
+.cid-slsYTvFC6m .price {
+  color: #df114f;
 }
 .cid-slsZDr5lD0 {
   padding-top: 2rem;
@@ -7784,6 +7800,9 @@ a {
 }
 .cid-slsZyGxKWU .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
+}
+.cid-slsZyGxKWU .price {
+  color: #df114f;
 }
 .cid-slvQaRevHl {
   padding-top: 1rem;
@@ -8806,7 +8825,7 @@ a {
   color: #ffffff;
 }
 .cid-srbJX2oP59 .price {
-  color: #ffffff;
+  color: #df114f;
 }
 .cid-slvQaRevHl {
   padding-top: 1rem;

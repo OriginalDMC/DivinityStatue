@@ -4,22 +4,22 @@
    src: url('ZenzaiIt/font.ttf');
 }
 @font-face {
-   font-family: 'Cinzel-Black';
+   font-family: 'Mason';
    font-display: swap;
-   src: url('Cinzel-Black/font.ttf');
+   src: url('Mason/font.ttf');
 }
 @font-face {
-   font-family: 'big_noodle_titling';
+   font-family: 'Big Noodle';
    font-display: swap;
-   src: url('big_noodle_titling/font.ttf');
+   src: url('Big Noodle/font.ttf');
 }
 @font-face {
-   font-family: 'BankGothic Bold';
+   font-family: 'Bank Gothic Bold';
    font-display: swap;
-   src: url('BankGothic Bold/font.ttf');
+   src: url('Bank Gothic Bold/font.ttf');
 }
 @font-face {
-   font-family: 'ostrich-black';
+   font-family: 'Ostrich Sans Medium';
    font-display: swap;
-   src: url('ostrich-black/font.ttf');
+   src: url('Ostrich Sans Medium/font.ttf');
 }
