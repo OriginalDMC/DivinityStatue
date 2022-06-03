@@ -4,11 +4,6 @@
    src: url('ZenzaiIt/font.ttf');
 }
 @font-face {
-   font-family: 'Mason';
-   font-display: swap;
-   src: url('Mason/font.ttf');
-}
-@font-face {
    font-family: 'Big Noodle';
    font-display: swap;
    src: url('Big Noodle/font.ttf');

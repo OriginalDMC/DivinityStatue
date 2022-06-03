@@ -13,12 +13,12 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Mason';
-  font-size: 1.2rem;
+  font-family: 'Righteous', display;
+  font-size: 1.4rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 .display-4 {
   font-family: 'Ostrich Sans Medium';
@@ -61,9 +61,9 @@ body {
     line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 1.12rem;
@@ -1313,7 +1313,7 @@ a {
 .cid-snpasqzybe {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/dmc-pinnacle-of-combat-peaenglish-1-1920x1080.jpeg");
+  background-image: url("../../../assets/images/pc-img-list-202011131738025000-1280x720.jpeg");
 }
 .cid-snpasqzybe .socicon-bg-facebook {
   background: #1778f2;
@@ -1460,7 +1460,7 @@ a {
 .cid-slrDSRB0Yp {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/filters-quality80-background-1320x743.jpg");
+  background-image: url("../../../assets/images/pc-img-list-202104281359539230-1280x720.jpg");
 }
 @media (max-width: 767px) {
   .cid-slrDSRB0Yp .card-box {
@@ -1669,6 +1669,55 @@ a {
 .cid-sls0S4fwn3 .card-title DIV {
   text-align: left;
 }
+.cid-snnZ9cHmAA {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/v-wallpaper-1920x1080.jpg");
+}
+@media (max-width: 767px) {
+  .cid-snnZ9cHmAA .card-box {
+    padding: 1rem;
+  }
+  .cid-snnZ9cHmAA .mbr-section-btn,
+  .cid-snnZ9cHmAA .price {
+    text-align: center;
+  }
+  .cid-snnZ9cHmAA .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-snnZ9cHmAA .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-snnZ9cHmAA .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-snnZ9cHmAA .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-snnZ9cHmAA .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-snnZ9cHmAA .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-snnZ9cHmAA .mbr-text {
+  color: #ffffff;
+}
+.cid-snnZ9cHmAA .card-title {
+  color: #ffffff;
+}
+.cid-snnZ9cHmAA .price {
+  color: #df114f;
+}
 .cid-snnK63X0BR {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1716,55 +1765,6 @@ a {
   color: #ffffff;
 }
 .cid-snnK63X0BR .price {
-  color: #df114f;
-}
-.cid-snnZ9cHmAA {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/lucia-1920-118385-1280x960.jpg");
-}
-@media (max-width: 767px) {
-  .cid-snnZ9cHmAA .card-box {
-    padding: 1rem;
-  }
-  .cid-snnZ9cHmAA .mbr-section-btn,
-  .cid-snnZ9cHmAA .price {
-    text-align: center;
-  }
-  .cid-snnZ9cHmAA .mbr-section-btn .btn {
-    width: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .cid-snnZ9cHmAA .card-box {
-    padding-right: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-snnZ9cHmAA .card-box {
-    padding-left: 2rem;
-    padding-right: 4rem;
-  }
-}
-.cid-snnZ9cHmAA .card-wrapper {
-  border-radius: 4px;
-  background-color: #000000;
-  background-color: transparent;
-}
-.cid-snnZ9cHmAA .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-snnZ9cHmAA .card:not(:nth-last-child(1)) {
-  margin-bottom: 2rem;
-}
-.cid-snnZ9cHmAA .mbr-text {
-  color: #ffffff;
-}
-.cid-snnZ9cHmAA .card-title {
-  color: #ffffff;
-}
-.cid-snnZ9cHmAA .price {
   color: #df114f;
 }
 .cid-slrSR2KPxt {
