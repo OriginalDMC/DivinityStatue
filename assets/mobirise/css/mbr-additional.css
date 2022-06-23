@@ -8881,6 +8881,55 @@ a {
 .cid-srbJX2oP59 .price {
   color: #df114f;
 }
+.cid-t9xjx83it4 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/devil-may-cry-5-art-2560x1600-1280x800.jpg");
+}
+@media (max-width: 767px) {
+  .cid-t9xjx83it4 .card-box {
+    padding: 1rem;
+  }
+  .cid-t9xjx83it4 .mbr-section-btn,
+  .cid-t9xjx83it4 .price {
+    text-align: center;
+  }
+  .cid-t9xjx83it4 .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-t9xjx83it4 .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-t9xjx83it4 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-t9xjx83it4 .card-wrapper {
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-color: transparent;
+}
+.cid-t9xjx83it4 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-t9xjx83it4 .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-t9xjx83it4 .mbr-text {
+  color: #ffffff;
+}
+.cid-t9xjx83it4 .card-title {
+  color: #ffffff;
+}
+.cid-t9xjx83it4 .price {
+  color: #df114f;
+}
 .cid-slvQaRevHl {
   padding-top: 1rem;
   padding-bottom: 0rem;
