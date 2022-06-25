@@ -2214,6 +2214,60 @@ a {
   text-align: center;
   color: #bbbbbb;
 }
+.cid-t9OdeV2kJe {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/18623-1280x720.jpg");
+}
+@media (max-width: 767px) {
+  .cid-t9OdeV2kJe .card-box {
+    padding: 1rem;
+  }
+  .cid-t9OdeV2kJe .mbr-section-btn,
+  .cid-t9OdeV2kJe .price {
+    text-align: center;
+  }
+  .cid-t9OdeV2kJe .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-t9OdeV2kJe .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-t9OdeV2kJe .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-t9OdeV2kJe .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-t9OdeV2kJe .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-t9OdeV2kJe .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-t9OdeV2kJe .mbr-text {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-t9OdeV2kJe .card-title {
+  color: #ffffff;
+}
+.cid-t9OdeV2kJe .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-t9OdeV2kJe .card-title DIV {
+  text-align: left;
+}
 .cid-slszH27DP2 {
   padding-top: 6rem;
   padding-bottom: 6rem;
