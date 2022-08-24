@@ -1618,7 +1618,7 @@ a {
 .cid-sls0S4fwn3 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/282-1562897096-1850819458-1920x1080.jpg");
+  background-image: url("../../../assets/images/dante-devil-may-1920x1080.jpg");
 }
 @media (max-width: 767px) {
   .cid-sls0S4fwn3 .card-box {
@@ -1765,6 +1765,55 @@ a {
   color: #ffffff;
 }
 .cid-snnK63X0BR .price {
+  color: #df114f;
+}
+.cid-tflP9pvsZE {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/vov-wallpapers-1013x720.jpg");
+}
+@media (max-width: 767px) {
+  .cid-tflP9pvsZE .card-box {
+    padding: 1rem;
+  }
+  .cid-tflP9pvsZE .mbr-section-btn,
+  .cid-tflP9pvsZE .price {
+    text-align: center;
+  }
+  .cid-tflP9pvsZE .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-tflP9pvsZE .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-tflP9pvsZE .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-tflP9pvsZE .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-tflP9pvsZE .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tflP9pvsZE .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-tflP9pvsZE .mbr-text {
+  color: #ffffff;
+}
+.cid-tflP9pvsZE .card-title {
+  color: #ffffff;
+}
+.cid-tflP9pvsZE .price {
   color: #df114f;
 }
 .cid-slrSR2KPxt {
@@ -2154,6 +2203,66 @@ a {
 .cid-slswyWK6nz .mbr-section-subtitle {
   color: #ffffff;
 }
+.cid-tfmiJrPS8K {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/dante-devil-may-crydevil-may-cry-2-dante-1280x720.jpg");
+}
+.cid-tfmiJrPS8K .mbr-overlay {
+  background: #000000;
+  opacity: 0.7;
+}
+.cid-tfmiJrPS8K .item:focus,
+.cid-tfmiJrPS8K span:focus {
+  outline: none;
+}
+.cid-tfmiJrPS8K .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-tfmiJrPS8K .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #000000;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-tfmiJrPS8K .item-wrapper .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-tfmiJrPS8K .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-tfmiJrPS8K .item-wrapper .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-tfmiJrPS8K .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
+  }
+}
+.cid-tfmiJrPS8K .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-tfmiJrPS8K .mbr-section-title {
+  color: #232323;
+}
+.cid-tfmiJrPS8K .mbr-text,
+.cid-tfmiJrPS8K .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tfmiJrPS8K .item-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tfmiJrPS8K .item-subtitle {
+  text-align: center;
+  color: #bbbbbb;
+}
 .cid-slsrwUoApo {
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -2268,10 +2377,59 @@ a {
 .cid-t9OdeV2kJe .card-title DIV {
   text-align: left;
 }
+.cid-tfm75Ankt6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/devil-may-cry-4-dmc-4-800x600.jpeg");
+}
+@media (max-width: 767px) {
+  .cid-tfm75Ankt6 .card-box {
+    padding: 1rem;
+  }
+  .cid-tfm75Ankt6 .mbr-section-btn,
+  .cid-tfm75Ankt6 .price {
+    text-align: center;
+  }
+  .cid-tfm75Ankt6 .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-tfm75Ankt6 .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-tfm75Ankt6 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-tfm75Ankt6 .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-tfm75Ankt6 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tfm75Ankt6 .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-tfm75Ankt6 .mbr-text {
+  color: #ffffff;
+}
+.cid-tfm75Ankt6 .card-title {
+  color: #ffffff;
+}
+.cid-tfm75Ankt6 .price {
+  color: #df114f;
+}
 .cid-slszH27DP2 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/devil-may-cry-5-lady-uhdpaper.com-8k-183-1920x1080.jpg");
+  background-image: url("../../../assets/images/nero-purple-1920x1080.jpg");
 }
 @media (max-width: 767px) {
   .cid-slszH27DP2 .card-box {
@@ -2325,7 +2483,7 @@ a {
 .cid-slsCmJlcWd {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/ehwqfj3xyaazvnc-1414x1414.jpg");
+  background-image: url("../../../assets/images/nico-q-1920x1080.jpg");
 }
 @media (max-width: 767px) {
   .cid-slsCmJlcWd .card-box {
