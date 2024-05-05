@@ -2601,28 +2601,31 @@ a {
 .cid-t9wWXgND3m .card-title DIV {
   text-align: left;
 }
-.cid-u7dau5GEAL {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/devil-may-cry-anime-1920x1080.jpg");
+.cid-sltjudiUft {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/nico-devil-may-cry-5-game-j8-1280x631.jpg");
 }
-.cid-u7dau5GEAL .mbr-overlay {
+.cid-sltjudiUft .mbr-overlay {
   background: #000000;
-  opacity: 0.7;
+  opacity: 0.6;
 }
-.cid-u7dau5GEAL img,
-.cid-u7dau5GEAL .item-img {
+.cid-sltjudiUft img,
+.cid-sltjudiUft .item-img {
   width: 100%;
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
 }
-.cid-u7dau5GEAL .item:focus,
-.cid-u7dau5GEAL span:focus {
+.cid-sltjudiUft .item:focus,
+.cid-sltjudiUft span:focus {
   outline: none;
 }
-.cid-u7dau5GEAL .item {
+.cid-sltjudiUft .item {
   cursor: pointer;
   margin-bottom: 2rem;
 }
-.cid-u7dau5GEAL .item-wrapper {
+.cid-sltjudiUft .item-wrapper {
   position: relative;
   border-radius: 4px;
   background: #000000;
@@ -2631,38 +2634,39 @@ a {
   flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
-  .cid-u7dau5GEAL .item-wrapper .item-content {
+  .cid-sltjudiUft .item-wrapper .item-content {
     padding: 2rem 2rem 0;
   }
-  .cid-u7dau5GEAL .item-wrapper .item-footer {
+  .cid-sltjudiUft .item-wrapper .item-footer {
     padding: 0 2rem 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-u7dau5GEAL .item-wrapper .item-content {
+  .cid-sltjudiUft .item-wrapper .item-content {
     padding: 1rem 1rem 0;
   }
-  .cid-u7dau5GEAL .item-wrapper .item-footer {
+  .cid-sltjudiUft .item-wrapper .item-footer {
     padding: 0 1rem 1rem;
   }
 }
-.cid-u7dau5GEAL .mbr-section-btn {
+.cid-sltjudiUft .mbr-section-btn {
   margin-top: auto !important;
 }
-.cid-u7dau5GEAL .mbr-section-title {
+.cid-sltjudiUft .mbr-section-title {
   color: #ffffff;
 }
-.cid-u7dau5GEAL .mbr-text,
-.cid-u7dau5GEAL .mbr-section-btn {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-u7dau5GEAL .item-title {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-u7dau5GEAL .item-subtitle {
+.cid-sltjudiUft .mbr-text,
+.cid-sltjudiUft .mbr-section-btn {
   text-align: left;
+  color: #ffffff;
+}
+.cid-sltjudiUft .item-title {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-sltjudiUft .item-subtitle {
+  text-align: left;
+  color: #bbbbbb;
 }
 .cid-sls7H833vt {
   padding-top: 3rem;
@@ -2678,7 +2682,7 @@ a {
 .cid-sls8GkE1my {
   padding-top: 4rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/dmc-5-vergils-yamato-hd-dev-1920x1080.jpg");
+  background-image: url("../../../assets/images/efla6iywkamodtu-1-1920x1080.jpg");
 }
 .cid-sls8GkE1my .image-wrap img {
   width: 100%;
