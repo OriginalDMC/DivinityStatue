@@ -8,7 +8,7 @@
   <meta name="description" content="Sales Chart of Devil May Cry Franchise.">
   
   
-  <title>Sales - Divinity Statue</title>
+  <title>Sales of Devil May Cry</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -22,11 +22,15 @@
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Righteous:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous:400&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-      <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="assets/sales/amcharts.js"></script>
-		<script type="text/javascript" src="assets/sales/serial.js"></script>
-		<script type="text/javascript" src="assets/sales/chalk.js"></script>
- 
+  <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+		
+	
+		<script type="text/javascript" src="assets/sales2/amcharts.js"></script>
+		<script type="text/javascript" src="assets/sales2/serial.js"></script>
+		<script type="text/javascript" src="assets/sales2/chalk.js"></script>
+  
+  
+  
   
   
 </head>
@@ -46,7 +50,7 @@
 
 
   
-  <section data-bs-version="5.1" class="menu menu2 cid-slC3nKe4Vn" once="menu" id="menu2-5q">
+  <section data-bs-version="5.1" class="menu menu2 cid-ur7Vb948qs" once="menu" id="menu2-6m">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
@@ -79,17 +83,18 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-slsFtaEpP2" id="content4-34">
+<section data-bs-version="5.1" class="content4 cid-ur7Vb7VnBI" id="content4-6k">
     
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);">
     </div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><br>Sales Chart Of Devil May Cry
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><br><br>Sales Chart Of Devil May Cry
 <div><strong><br></strong></div></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">(Mouse Hover / Tap on Graph lines to see the details.)</h4>
-                <div class="mbr-section-btn align-center"><a class="btn btn-info display-7" href="sales_view2.html"><span class="mbri-growing-chart mbr-iconfont mbr-iconfont-btn"></span>Switch to Different Chart</a></div>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">(Mouse Hover / Tap on Graph lines to see the details.)
+<div><br></div></h4>
+                
             </div>
         </div>
     </div>
@@ -100,34 +105,47 @@
 				{
 					"type": "serial",
 					"categoryField": "category",
-					"rotate": true,
+					"columnSpacing": 9,
+					"columnWidth": 0.69,
+					"autoMarginOffset": 0,
+					"zoomOutButtonTabIndex": 6,
 					"startDuration": 1,
 					"startEffect": "easeOutSine",
+					"autoDisplay": true,
 					"fontFamily": "Impact",
-					"fontSize": 15,
+					"fontSize": 16,
 					"handDrawn": false,
+					"hideBalloonTime": 153,
+					"processTimeout": -1,
 					"theme": "chalk",
 					"categoryAxis": {
 						"gridPosition": "start",
-						"position": "top"
+						"position": "top",
+						"axisColor": "#DC5A7D",
+						"axisThickness": 2,
+						"title": ".",
+						"titleBold": false,
+						"titleFontSize": 0
 					},
 					"trendLines": [],
 					"graphs": [
 						{
-							"accessibleLabel": "[category]] [[value]] ",
 							"balloonColor": "#282828",
 							"balloonText": "[[category]]: [[value]] Million Units Sold",
+							"bulletOffset": -3,
 							"fillAlphas": 1,
-							"fillColors": "#20CDE6",
+							"fillColors": "#FFFFFF",
+							"fontSize": 0,
 							"id": "AmGraph-1",
-							"lineColor": "#000000",
+							"lineThickness": 0,
+							"negativeLineAlpha": 0,
+							"negativeLineColor": "#282828",
+							"tabIndex": 0,
 							"title": "Standard Edition",
 							"type": "column",
 							"valueField": "column-1"
 						},
 						{
-							"accessibleLabel": "[[title]]  [[category]] [[value]]",
-							"balloonColor": "#E466B5",
 							"balloonText": "[[category]] Special Edition : [[value]] Million Units Sold",
 							"fillAlphas": 1,
 							"id": "AmGraph-2",
@@ -137,16 +155,16 @@
 						}
 					],
 					"guides": [],
-					"valueAxes": [
-						{
-							"id": "ValueAxis-1",
-							"stackType": "regular",
-							"axisColor": "#E466B5",
-							"title": ""
-						}
-					],
+					"valueAxes": [],
 					"allLabels": [],
-					"balloon": {},
+					"balloon": {
+						"animationDuration": 0.7,
+						"fadeOutDuration": 0,
+						"fixedPosition": false,
+						"fontSize": 15,
+						"offsetY": 2,
+						"textAlign": " middle"
+					},
 					"legend": {
 						"enabled": true,
 						"useGraphSettings": true
@@ -154,8 +172,8 @@
 					"titles": [
 						{
 							"bold": false,
-							"id": "Title-2",
-							"text": "DATA Is Based on CAPCOM IR"
+							"id": "Title-3",
+							"text": "DATA is Based on CAPCOM IR"
 						}
 					],
 					"dataProvider": [
@@ -172,7 +190,7 @@
 						{
 							"category": "Devil May Cry 3",
 							"column-1": "1.3",
-							"column-2": "1"
+							"column-2": "1.0"
 						},
 						{
 							"category": "Devil May Cry 4",
@@ -193,8 +211,10 @@
 				}
 			);
 		</script>
+	</head>
+	
 <div id="chartdiv" style="width: 100%; height: 400px; background-color: #282828;" ></div>
-<section data-bs-version="5.1" class="footer4 cid-slvQaRevHl" once="footers" id="footer4-5f">
+<section data-bs-version="5.1" class="footer4 cid-ur7Vb8v5vg" once="footers" id="footer4-6l">
 
     
     <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(17, 17, 17);"></div>
@@ -241,7 +261,7 @@
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: none;"><a href="https://mobirise.site/e" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/i" style="color:#aaa;"></a> web creator</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: none;"><a href="https://mobirise.site/k" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site" style="color:#aaa;"></a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
