@@ -1655,7 +1655,7 @@ a {
 .cid-sllGkrfRo0 {
   padding-top: 5rem;
   padding-bottom: 2rem;
-  background-image: url("../../../assets/images/fe6bb77ea160fcb16044d12dc7f35f64-1-1920x1080.jpeg");
+  background-image: url("../../../assets/images/cooltrailerandposterfornetflixsdevilmaycryanimeseries-1920x1080.jpeg");
 }
 .cid-sllGkrfRo0 .mbr-section-title {
   color: #ffffff;
@@ -1730,6 +1730,40 @@ a {
 }
 .cid-snpasqzybe .mbr-section-title,
 .cid-snpasqzybe .mbr-social-likes {
+  color: #ffffff;
+}
+.cid-uGBxOuLpzY {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/poster-1024x576.jpg");
+}
+.cid-uGBxOuLpzY .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uGBxOuLpzY .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uGBxOuLpzY .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-uGBxOuLpzY .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+}
+.cid-uGBxOuLpzY .mbr-section-title {
+  color: #ffffff;
+}
+.cid-uGBxOuLpzY .mbr-text,
+.cid-uGBxOuLpzY .mbr-section-btn {
   color: #ffffff;
 }
 .cid-sllLVkOtux {
@@ -3016,27 +3050,59 @@ a {
 .cid-sls7H833vt .mbr-section-subtitle {
   color: #ffffff;
 }
-.cid-sls8GkE1my {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/efla6iywkamodtu-1-1920x1080.jpg");
+.cid-uGBeZZ17l7 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/netflixs-devil-may-cry-anime-dropped-a-2000x1125.jpg");
 }
-.cid-sls8GkE1my .image-wrap img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-sls8GkE1my .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 50%;
+@media (max-width: 767px) {
+  .cid-uGBeZZ17l7 .card-box {
+    padding: 1rem;
+  }
+  .cid-uGBeZZ17l7 .mbr-section-btn,
+  .cid-uGBeZZ17l7 .price {
+    text-align: center;
+  }
+  .cid-uGBeZZ17l7 .mbr-section-btn .btn {
+    width: 100%;
   }
 }
-.cid-sls8GkE1my .mbr-text,
-.cid-sls8GkE1my .mbr-section-btn {
+@media (min-width: 768px) {
+  .cid-uGBeZZ17l7 .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-uGBeZZ17l7 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-uGBeZZ17l7 .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-uGBeZZ17l7 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-uGBeZZ17l7 .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-uGBeZZ17l7 .mbr-text {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-uGBeZZ17l7 .card-title {
   color: #ffffff;
 }
-.cid-sls8GkE1my .mbr-section-title {
-  color: #ffffff;
+.cid-uGBeZZ17l7 .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-uGBeZZ17l7 .card-title DIV {
+  text-align: left;
 }
 .cid-sls9EiWBQ8 {
   padding-top: 6rem;
