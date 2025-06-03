@@ -13,7 +13,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Righteous', display;
+  font-family: 'square_sans_serif_7';
   font-size: 1.4rem;
   line-height: 1.1;
 }
@@ -29,12 +29,12 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'Big Noodle';
-  font-size: 1.6rem;
+  font-family: 'Righteous';
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 .display-7 {
   font-family: 'Bank Gothic Bold';
@@ -71,9 +71,9 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.88rem;
