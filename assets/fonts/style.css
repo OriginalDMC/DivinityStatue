@@ -4,14 +4,9 @@
    src: url('ZenzaiIt/font.ttf');
 }
 @font-face {
-   font-family: 'square_sans_serif_7';
+   font-family: 'Big Noodle';
    font-display: swap;
-   src: url('square_sans_serif_7/font.ttf');
-}
-@font-face {
-   font-family: 'Righteous';
-   font-display: swap;
-   src: url('Righteous/font.ttf');
+   src: url('Big Noodle/font.ttf');
 }
 @font-face {
    font-family: 'Bank Gothic Bold';
