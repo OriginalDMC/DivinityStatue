@@ -2503,40 +2503,59 @@ a {
 .cid-slsouSdlqs .mbr-section-subtitle {
   color: #ffffff;
 }
-.cid-spQtDec08Y {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  background-image: url("../../../assets/images/dmc5-wall-1290x726.jpg");
+.cid-uPhhKib7nZ {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/devil-may-cry-4-game-characters-wallpaper-1280x-1280x720.jpg");
 }
-.cid-spQtDec08Y .row {
-  align-items: center;
-}
-@media (max-width: 991px) {
-  .cid-spQtDec08Y .row {
-    flex-direction: column-reverse;
+@media (max-width: 767px) {
+  .cid-uPhhKib7nZ .card-box {
+    padding: 1rem;
   }
-  .cid-spQtDec08Y .image-wrapper {
-    margin-bottom: 2rem;
+  .cid-uPhhKib7nZ .mbr-section-btn,
+  .cid-uPhhKib7nZ .price {
+    text-align: center;
   }
-  .cid-spQtDec08Y .card-wrapper {
-    padding: 0 1rem;
+  .cid-uPhhKib7nZ .mbr-section-btn .btn {
+    width: 100%;
   }
 }
-@media (min-width: 992px) {
-  .cid-spQtDec08Y .card-wrapper {
+@media (min-width: 768px) {
+  .cid-uPhhKib7nZ .card-box {
     padding-right: 2rem;
   }
 }
-.cid-spQtDec08Y .image-wrapper img {
+@media (min-width: 992px) {
+  .cid-uPhhKib7nZ .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-uPhhKib7nZ .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-uPhhKib7nZ .image-wrapper img {
   width: 100%;
   object-fit: cover;
 }
-.cid-spQtDec08Y .card-title {
+.cid-uPhhKib7nZ .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-uPhhKib7nZ .mbr-text {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-uPhhKib7nZ .card-title {
   color: #ffffff;
 }
-.cid-spQtDec08Y .mbr-text,
-.cid-spQtDec08Y .mbr-section-btn {
-  color: #ffffff;
+.cid-uPhhKib7nZ .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-uPhhKib7nZ .card-title DIV {
+  text-align: left;
 }
 .cid-slsph3QN7Y {
   padding-top: 2rem;
@@ -2597,17 +2616,6 @@ a {
 .cid-slsph3QN7Y .item-subtitle {
   text-align: center;
   color: #bbbbbb;
-}
-.cid-slswyWK6nz {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-  background-image: url("../../../assets/images/dante-v-devil-may-cry-5-uhdpaper.com-hd-3.820-1920x737.jpg");
-}
-.cid-slswyWK6nz .mbr-section-title {
-  color: #ffffff;
-}
-.cid-slswyWK6nz .mbr-section-subtitle {
-  color: #ffffff;
 }
 .cid-tfmiJrPS8K {
   padding-top: 2rem;
@@ -2831,6 +2839,17 @@ a {
 }
 .cid-tfm75Ankt6 .price {
   color: #df114f;
+}
+.cid-slswyWK6nz {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/dante-v-devil-may-cry-5-uhdpaper.com-hd-3.820-1920x737.jpg");
+}
+.cid-slswyWK6nz .mbr-section-title {
+  color: #ffffff;
+}
+.cid-slswyWK6nz .mbr-section-subtitle {
+  color: #ffffff;
 }
 .cid-slszH27DP2 {
   padding-top: 6rem;
