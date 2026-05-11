@@ -5,7 +5,7 @@ body {
   font-family: IBM Plex Sans;
 }
 .display-1 {
-  font-family: 'ZenzaiIt';
+  font-family: 'font';
   font-size: 4.6rem;
   line-height: 1.1;
 }
@@ -13,7 +13,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Righteous', display;
+  font-family: 'olga.regular';
   font-size: 1.4rem;
   line-height: 1.1;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'Big Noodle';
+  font-family: 'EB-Garamond-SmallCaps-12-Regular';
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -1033,7 +1033,7 @@ a {
   }
 }
 .cid-slkL1emKXR {
-  background-image: url("../../../assets/images/45.gif");
+  background-image: url("../../../assets/images/anigif-1.gif");
 }
 .cid-slkL1emKXR .mbr-section-title {
   color: #ffffff;
@@ -1662,7 +1662,7 @@ a {
 .cid-sllGkrfRo0 {
   padding-top: 5rem;
   padding-bottom: 2rem;
-  background-image: url("../../../assets/images/cooltrailerandposterfornetflixsdevilmaycryanimeseries-1920x1080.jpeg");
+  background-image: url("../../../assets/images/devil-may-cry-5-devil-trigger-1-1024x576.png");
 }
 .cid-sllGkrfRo0 .mbr-section-title {
   color: #ffffff;
@@ -1740,45 +1740,139 @@ a {
 .cid-snpasqzybe .mbr-social-likes {
   color: #ffffff;
 }
-.cid-uNL0RoYueK {
+.cid-vi27i24ea6 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/dmcanine-1-1280x720.jpeg");
+  background-image: url("../../../assets/images/devil-may-cry-n-s2-1000x563.jpg");
 }
-.cid-uNL0RoYueK .mbr-fallback-image.disabled {
-  display: none;
+@media (max-width: 767px) {
+  .cid-vi27i24ea6 .card-box {
+    padding: 1rem;
+  }
+  .cid-vi27i24ea6 .mbr-section-btn,
+  .cid-vi27i24ea6 .price {
+    text-align: center;
+  }
+  .cid-vi27i24ea6 .mbr-section-btn .btn {
+    width: 100%;
+  }
 }
-.cid-uNL0RoYueK .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-uNL0RoYueK .card {
-  border-radius: 0 !important;
+@media (min-width: 768px) {
+  .cid-vi27i24ea6 .card-box {
+    padding-right: 2rem;
+  }
 }
 @media (min-width: 992px) {
-  .cid-uNL0RoYueK .card {
-    border-right: 1px solid white;
+  .cid-vi27i24ea6 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
   }
+}
+.cid-vi27i24ea6 .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-vi27i24ea6 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-vi27i24ea6 .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-vi27i24ea6 .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-vi27i24ea6 .card-title {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-vi27i24ea6 .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-vi27i24ea6 .card-title DIV {
+  text-align: center;
+}
+.cid-vi23MCvnH3 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/dmc-735x405.jpg");
+}
+@media (max-width: 767px) {
+  .cid-vi23MCvnH3 .card-box {
+    padding: 1rem;
+  }
+  .cid-vi23MCvnH3 .mbr-section-btn,
+  .cid-vi23MCvnH3 .price {
+    text-align: center;
+  }
+  .cid-vi23MCvnH3 .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .cid-vi23MCvnH3 .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-vi23MCvnH3 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-vi23MCvnH3 .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+  background-color: transparent;
+}
+.cid-vi23MCvnH3 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-vi23MCvnH3 .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-vi23MCvnH3 .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-vi23MCvnH3 .card-title {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-vi23MCvnH3 .price {
+  color: #df114f;
+  text-align: right;
+}
+.cid-vi23MCvnH3 .card-title DIV {
+  text-align: center;
+}
+.cid-vjhIjzQgKp {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/devil-may-demon-boss-1210x681.png");
+}
+.cid-vjhIjzQgKp .row {
+  align-items: center;
 }
 @media (max-width: 991px) {
-  .cid-uNL0RoYueK .card {
-    border-right: 0px;
-    border-bottom: 1px solid white;
+  .cid-vjhIjzQgKp .image-wrapper {
+    padding: 1rem;
   }
 }
-.cid-uNL0RoYueK .wrapper {
-  padding: 30px 0;
+@media (min-width: 992px) {
+  .cid-vjhIjzQgKp .text-wrapper {
+    padding: 0 2rem;
+  }
 }
-.cid-uNL0RoYueK .mbr-section-title {
-  color: #fafafa;
+.cid-vjhIjzQgKp .mbr-section-title {
+  color: #ffffff;
 }
-.cid-uNL0RoYueK .mbr-text,
-.cid-uNL0RoYueK .mbr-section-btn {
+.cid-vjhIjzQgKp .mbr-text,
+.cid-vjhIjzQgKp .mbr-section-btn {
   color: #ffffff;
 }
 .cid-sllNpa9Vig {

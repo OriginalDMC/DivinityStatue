@@ -1,12 +1,17 @@
 @font-face {
-   font-family: 'ZenzaiIt';
+   font-family: 'font';
    font-display: swap;
-   src: url('ZenzaiIt/font.ttf');
+   src: url('font/font.ttf');
 }
 @font-face {
-   font-family: 'Big Noodle';
+   font-family: 'olga.regular';
    font-display: swap;
-   src: url('Big Noodle/font.ttf');
+   src: url('olga.regular/font.ttf');
+}
+@font-face {
+   font-family: 'EB-Garamond-SmallCaps-12-Regular';
+   font-display: swap;
+   src: url('EB-Garamond-SmallCaps-12-Regular/font.ttf');
 }
 @font-face {
    font-family: 'Bank Gothic Bold';
